@@ -1,0 +1,17 @@
+{
+  "tools": [
+    {
+      "title": "JSONschema.net",
+      "description": "JSON Schema Generator - automatically generate JSON schema from JSON.",
+      "url": "https://www.jsonschema.net/",
+      "categories": [
+        "generators"
+      ],
+      "tags": [
+        "json",
+        "schema",
+        "online"
+      ]
+    }
+  ]
+}
