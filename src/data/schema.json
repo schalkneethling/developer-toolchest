@@ -67,10 +67,20 @@
                         "$id": "#/properties/tools/items/properties/url",
                         "type": "string",
                         "title": "The Url Schema",
-                        "description": "A tool url",
+                        "description": "The website url",
                         "default": "",
                         "examples": [
                             "https://www.jsonschema.net/"
+                        ]
+                    },
+                    "repo-url": {
+                        "$id": "#/properties/tools/items/properties/repo-url",
+                        "type": "string",
+                        "title": "The Repo-url Schema",
+                        "description": "The repo url",
+                        "default": "",
+                        "examples": [
+                            "https://github.com/jackwootton/json-schema"
                         ]
                     },
                     "categories": {
