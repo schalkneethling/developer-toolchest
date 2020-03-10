@@ -1,0 +1,116 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "tools"
+    ],
+    "properties": {
+        "tools": {
+            "$id": "#/properties/tools",
+            "type": "array",
+            "title": "The Tools Schema",
+            "description": "Encapsulates the list of tools in the tool chest.",
+            "default": [],
+            "items": {
+                "$id": "#/properties/tools/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "description": "A single tool instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "categories": [
+                            "generators"
+                        ],
+                        "url": "https://www.jsonschema.net/",
+                        "tags": [
+                            "json",
+                            "schema",
+                            "online"
+                        ],
+                        "description": "JSON Schema Generator - automatically generate JSON schema from JSON.",
+                        "title": "JSONschema.net"
+                    }
+                ],
+                "required": [
+                    "title",
+                    "description",
+                    "url",
+                    "categories",
+                    "tags"
+                ],
+                "properties": {
+                    "title": {
+                        "$id": "#/properties/tools/items/properties/title",
+                        "type": "string",
+                        "title": "The Title Schema",
+                        "description": "The name of the tool",
+                        "default": "",
+                        "examples": [
+                            "JSONschema.net"
+                        ]
+                    },
+                    "description": {
+                        "$id": "#/properties/tools/items/properties/description",
+                        "type": "string",
+                        "title": "The Description Schema",
+                        "description": "Short description of the tool",
+                        "default": "",
+                        "examples": [
+                            "JSON Schema Generator - automatically generate JSON schema from JSON."
+                        ]
+                    },
+                    "url": {
+                        "$id": "#/properties/tools/items/properties/url",
+                        "type": "string",
+                        "title": "The Url Schema",
+                        "description": "A tool url",
+                        "default": "",
+                        "examples": [
+                            "https://www.jsonschema.net/"
+                        ]
+                    },
+                    "categories": {
+                        "$id": "#/properties/tools/items/properties/categories",
+                        "type": "array",
+                        "title": "The Categories Schema",
+                        "description": "A list of categories this tool belongs to",
+                        "default": [],
+                        "items": {
+                            "$id": "#/properties/tools/items/properties/categories/items",
+                            "type": "string",
+                            "title": "The Items Schema",
+                            "description": "A single category instance.",
+                            "default": "",
+                            "examples": [
+                                "generators"
+                            ]
+                        }
+                    },
+                    "tags": {
+                        "$id": "#/properties/tools/items/properties/tags",
+                        "type": "array",
+                        "title": "The Tags Schema",
+                        "description": "A broader list of tags this tool belongs to",
+                        "default": [],
+                        "items": {
+                            "$id": "#/properties/tools/items/properties/tags/items",
+                            "type": "string",
+                            "title": "The Items Schema",
+                            "description": "A single tag instance.",
+                            "default": "",
+                            "examples": [
+                                "json",
+                                "schema",
+                                "online"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
