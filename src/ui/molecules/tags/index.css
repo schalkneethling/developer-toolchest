@@ -8,7 +8,7 @@
 .tag-list li {
   background-color: var(--color-neutral-500);
   border-radius: var(--default-border-radius);
-  flex: 0 1 60px;
+  flex: 1 1 120px;
   justify-content: space-between;
   padding: var(--padding-small);
   text-align: center;
