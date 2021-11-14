@@ -13,7 +13,7 @@ ul {
 body {
   font: 100%/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans",
     "Helvetica Neue", sans-serif;
-  margin: 2rem;
+  margin: 0;
   padding: 0;
 }
 
@@ -22,9 +22,16 @@ a:visited {
   color: #01918b;
 }
 
-.container {
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1100px;
+  width: 1100px;
 }
 
 .visually-hidden {

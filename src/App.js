@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Document } from "flexsearch";
 
+import { Footer } from "./ui/molecules/footer";
 import { Logo } from "./ui/atoms/logo";
 import { Search } from "./ui/molecules/search";
 import { SearchResults } from "./ui/molecules/search-results";
@@ -42,10 +43,13 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <Logo />
-      <Search onSubmitCallback={doSearch} />
-      {searchResults && <SearchResults results={searchResults} />}
+    <div className="page-container">
+      <div className="app-container">
+        <Logo />
+        <Search onSubmitCallback={doSearch} />
+        {searchResults && <SearchResults results={searchResults} />}
+      </div>
+      <Footer />
     </div>
   );
 }

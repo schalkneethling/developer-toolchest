@@ -1,0 +1,16 @@
+.page-footer {
+  background-color: #2d292f;
+  color: #fff;
+  margin-top: auto;
+  padding: 3rem;
+  text-align: center;
+}
+
+.page-footer a:link,
+.page-footer a:visited {
+  color: #fff;
+}
+
+.page-footer a:hover {
+  text-decoration: none;
+}
