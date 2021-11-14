@@ -1,0 +1,10 @@
+.logo::before {
+  background: transparent url("../../../assets/logo.svg") center center
+    no-repeat;
+  background-size: 391px 201px;
+  content: "";
+  display: block;
+  height: 201px;
+  margin: 0 auto;
+  width: 391px;
+}

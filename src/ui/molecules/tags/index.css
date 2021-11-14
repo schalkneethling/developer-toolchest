@@ -1,0 +1,15 @@
+.tag-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.tag-list li {
+  background-color: #9cafb7;
+  border-radius: 6px;
+  flex: 0 1 60px;
+  justify-content: space-between;
+  padding: 0.7rem;
+  text-align: center;
+}

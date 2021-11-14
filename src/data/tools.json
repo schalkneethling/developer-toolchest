@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "title": "Codepen.io",
+    "url": "https://codepen.io/",
+    "description": "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
+    "tag": ["repl", "editor"]
+  },
+  {
+    "id": 1,
+    "title": "Glitch.me",
+    "url": "https://glitch.me/",
+    "description": "Create your next web project in your browser with no setup and we'll instantly deploy it.",
+    "tag": ["repl", "editor", "sandbox"]
+  },
+  {
+    "id": 2,
+    "title": "JSFiddle.net",
+    "url": "https://jsfiddle.net/",
+    "description": "JSFiddle is an online IDE which is designed to allow users to edit and run HTML, JavaScript, and CSS code on a single page. Its interface is minimalist and split into four main frames, which correspond to editable HTML, JavaScript and CSS fields and a result field which displays the user's project after it is run.",
+    "tag": ["repl", "editor"]
+  },
+  {
+    "id": 3,
+    "title": "SVGOMG",
+    "url": "https://jakearchibald.github.io/svgomg/",
+    "description": "SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.",
+    "tag": ["utility", "online", "svg", "performance"]
+  },
+  {
+    "id": 4,
+    "title": "RealFaviconGenerator",
+    "url": "https://realfavicongenerator.net/",
+    "description": "With so many platforms and icons, it's hard to know exactly what you should do. What are the dimensions of favicon.ico? How many Touch icons do I need? RealFaviconGenerator did the reseach and testing for you.",
+    "tag": ["utility", "online", "favicon"]
+  }
+]
