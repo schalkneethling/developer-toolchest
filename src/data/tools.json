@@ -33,5 +33,164 @@
     "url": "https://realfavicongenerator.net/",
     "description": "With so many platforms and icons, it's hard to know exactly what you should do. What are the dimensions of favicon.ico? How many Touch icons do I need? RealFaviconGenerator did the reseach and testing for you.",
     "tag": ["utility", "online", "favicon"]
+  },
+  {
+    "id": 5,
+    "title": "Adobe Color",
+    "url": "https://color.adobe.com/create/color-wheel",
+    "description": "Color is a web app and creative community where you and other artists can create and share color themes and inspiration. Save themes to your Adobe Creative Cloud Libraries to use in your favorite desktop and mobile apps, like Adobe Photoshop, Illustrator, and Photoshop Sketch.",
+    "tag": ["color", "colour", "design", "utility"]
+  },
+  {
+    "id": 6,
+    "title": "Coolors",
+    "url": "https://coolors.co/",
+    "description": "The super fast color schemes generator! Create the perfect palette or get inspired by thousands of beautiful color schemes.",
+    "tag": [
+      "color",
+      "colour",
+      "color palette",
+      "colour palette",
+      "palette",
+      "palette generator",
+      "design",
+      "utility"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Google Fonts",
+    "url": "https://fonts.google.com/",
+    "description": "Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons, makes it easy to integrate expressive type and icons seamlessly—no matter where you are in the world.",
+    "tag": ["fonts", "typography", "icons", "iconography"]
+  },
+  {
+    "id": 8,
+    "title": "Modular Scale",
+    "url": "https://www.modularscale.com/",
+    "description": "First introduced at Build 2010 by Tim Brown, this site was built as a tool to help web designers size their type in a more meaningful way. The site re-launched at AEA Atlanta 2015 through a collaboration between Tim Brown and Scott Kellum.",
+    "tag": ["fonts", "typography", "utility", "type scale", "type-scale"]
+  },
+  {
+    "id": 9,
+    "title": "Type-Scale",
+    "url": "https://type-scale.com/",
+    "description": "A Visual Type Scale Calculator",
+    "tag": ["fonts", "typography", "utility", "type scale", "type-scale"]
+  },
+  {
+    "id": 10,
+    "title": "unDraw",
+    "url": "https://undraw.co/",
+    "description": "Open-source illustrations for any idea you can imagine and create. A constantly updated design project with beautiful SVG images that you can use completely free and without attribution.",
+    "tag": ["illustrations", "illustration", "svg", "design", "design assets"]
+  },
+  {
+    "id": 11,
+    "title": "The Noun Project",
+    "url": "https://thenounproject.com/",
+    "description": "Noun Project is building a global visual language that unites us — a language that allows quick and easy communication no matter who you are or where you are.",
+    "tag": [
+      "icons",
+      "iconography",
+      "photography",
+      "photos",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Unsplash",
+    "url": "https://unsplash.com/",
+    "description": "Over 2 million free high-resolution images brought to you by the world’s most generous community of photographers.",
+    "tag": [
+      "stock",
+      "stock photography",
+      "photography",
+      "photos",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Figma",
+    "url": "https://figma.com/",
+    "description": "Figma connects everyone in the design process so teams can deliver better products, faster.",
+    "tag": [
+      "application",
+      "design",
+      "design tools",
+      "design software",
+      "tools",
+      "prototyping"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "unavatar",
+    "url": "https://unavatar.io/",
+    "description": "Get a unified user avatar from multiple providers.",
+    "tag": ["avatar", "microservice", "placeholder", "utility"]
+  },
+  {
+    "id": 15,
+    "title": "{JSON} Placeholder",
+    "url": "https://jsonplaceholder.typicode.com/",
+    "description": "JSONPlaceholder is a free online REST API that you can use whenever you need some fake data. It can be in a README on GitHub, for a demo on CodeSandbox, in code examples on Stack Overflow, ...or simply to test things locally.",
+    "tag": [
+      "json",
+      "api",
+      "rest api",
+      "rest",
+      "testing",
+      "fake data",
+      "prototyping"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Diffchecker",
+    "url": "https://www.diffchecker.com/",
+    "description": "Diffchecker will compare text to find the difference between two text files. Just paste your files and click Find Difference.",
+    "tag": ["diff", "tools", "utility", "compare", "online", "desktop"]
+  },
+  {
+    "id": 17,
+    "title": "Remix Icon",
+    "url": "https://remixicon.com/",
+    "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 18,
+    "title": "iconmonstr",
+    "url": "https://iconmonstr.com/",
+    "description": "iconmonstr - free, monstrously big and continuously growing source of simple icons run by one creator",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 19,
+    "title": "Nu HTML Checker",
+    "url": "https://validator.w3.org/nu/",
+    "description": "This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change.",
+    "tag": ["validator", "validation", "tool", "tools", "html", "html checker"]
+  },
+  {
+    "id": 20,
+    "title": "fontplop",
+    "url": "https://github.com/matthewgonzalez/fontplop",
+    "description": "FontPlop is an OSX/macOS application which takes ttf and otf files and outputs a webfont bundle: woff2, woff, ttf/otf. It is the simpler, faster, free successor to FontPrep, which is no longer maintained",
+    "tag": [
+      "typography",
+      "utility",
+      "tool",
+      "tools",
+      "converter",
+      "webfont converter",
+      "macos",
+      "desktop"
+    ]
   }
 ]

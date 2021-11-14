@@ -24,7 +24,7 @@ All tools are listed in `src/data/tools.json`. To add a tool:
 }
 ```
 
-> NOTE: All fields are required.
+> NOTE: All fields are required. Remember to bump the `id` !important 😄
 
 ## Available Scripts
 
