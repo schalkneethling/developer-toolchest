@@ -1,14 +1,14 @@
 .page-footer {
-  background-color: #2d292f;
-  color: #fff;
+  background-color: var(--color-neutral-900);
+  color: var(--color-neutral-100);
   margin-top: auto;
-  padding: 3rem;
+  padding: var(--padding-medium);
   text-align: center;
 }
 
 .page-footer a:link,
 .page-footer a:visited {
-  color: #fff;
+  color: var(--color-neutral-100);
 }
 
 .page-footer a:hover {

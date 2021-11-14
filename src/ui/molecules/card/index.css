@@ -1,11 +1,11 @@
 .card {
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 1px 7px 0 rgb(0 0 0 / 10%), 0 1px 6px 0 rgb(0 0 0 / 6%);
+  background-color: var(--color-neutral-100);
+  border-radius: var(--default-border-radius);
+  box-shadow: var(--card-box-shadow);
   display: flex;
   flex: 1 0 350px;
   flex-direction: column;
-  padding: 1rem;
+  padding: var(--padding-base);
   width: 100%;
 }
 

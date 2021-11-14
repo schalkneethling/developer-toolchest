@@ -1,15 +1,15 @@
 .tag-list {
   display: flex;
   flex-flow: row wrap;
-  gap: 1rem;
+  gap: var(--padding-base);
   margin-top: auto;
 }
 
 .tag-list li {
-  background-color: #9cafb7;
-  border-radius: 6px;
+  background-color: var(--color-neutral-500);
+  border-radius: var(--default-border-radius);
   flex: 0 1 60px;
   justify-content: space-between;
-  padding: 0.7rem;
+  padding: var(--padding-small);
   text-align: center;
 }

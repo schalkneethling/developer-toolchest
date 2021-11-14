@@ -1,6 +1,6 @@
 .search-result-list {
   display: flex;
   flex-flow: row wrap;
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: var(--padding-small-medium);
+  margin: var(--padding-small-medium) 0;
 }

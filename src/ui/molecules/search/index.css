@@ -2,27 +2,27 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: var(--padding-base);
 }
 
 [type="search"] {
   flex: 1 1 80%;
-  padding: 0.9rem;
+  padding: var(--padding-base);
 }
 
 [type="submit"] {
-  background-color: #01918b;
+  background-color: var(--color-primary);
   border: 0;
-  border-radius: 6px;
-  color: #212121;
+  border-radius: var(--default-border-radius);
+  color: var(--color-neutral-900);
   cursor: pointer;
   flex: 1 1 20%;
   font-size: 1.2rem;
   line-height: 1;
-  padding: 0.9rem;
+  padding: var(--padding-base);
 }
 
 [type="submit"]:hover {
-  background-color: #2d292f;
-  color: #fff;
+  background-color: var(--color-neutral-900);
+  color: var(--color-neutral-100);
 }
