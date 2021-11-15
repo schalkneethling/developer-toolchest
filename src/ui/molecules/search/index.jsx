@@ -29,8 +29,8 @@ export const Search = ({ onSubmitCallback }) => {
         <button type="submit">Search</button>
       </form>
       <p>
-        The above search is based on tags. Try searching for <code>repl</code>,
-        or <code>utility</code> for example.
+        The above search is based on tags. Try searching for <code>repl</code>,{" "}
+        <code>utility</code> or <code>design</code> for example.
       </p>
     </>
   );

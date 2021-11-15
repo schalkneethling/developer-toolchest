@@ -46,7 +46,8 @@ a:visited {
 .app-container {
   margin: 0 auto;
   max-width: var(--max-width);
-  width: var(--max-width);
+  padding: 0 var(--padding-base);
+  width: 100%;
 }
 
 .visually-hidden {
