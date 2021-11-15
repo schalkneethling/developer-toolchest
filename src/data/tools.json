@@ -192,5 +192,12 @@
       "macos",
       "desktop"
     ]
+  },
+  {
+    "id": 21,
+    "title": "Prettier Playground",
+    "url": "https://prettier.io/playground/",
+    "description": "Prettier is an opinionated code formatter, that supports many languages, integrates with most editors, and has few options. Try it online!",
+    "tag": ["repl", "playground", "editor", "formatter", "utility"]
   }
 ]
