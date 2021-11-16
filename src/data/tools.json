@@ -199,5 +199,82 @@
     "url": "https://prettier.io/playground/",
     "description": "Prettier is an opinionated code formatter, that supports many languages, integrates with most editors, and has few options. Try it online!",
     "tag": ["repl", "playground", "editor", "formatter", "utility"]
+  },
+  {
+    "id": 22,
+    "title": "Unicons by Iconscout",
+    "url": "https://www.figma.com/community/file/902916014302207596",
+    "description": "A customizable icon library with 1500+ pixel-perfect icons in it. Including Outline, solid and Monochrome styles.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 23,
+    "title": "Material Icons (Filled)",
+    "url": "https://www.figma.com/community/file/896830001372034432",
+    "description": "If designing for an interface that would work with Google’s Material UI or love how Material UI Icons look, this Icon pack has a comprehensive list of Material UI Icons for you.",
+    "tag": [
+      "icon",
+      "icons",
+      "iconography",
+      "symbols",
+      "design",
+      "material design"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Koloicons",
+    "url": "https://www.figma.com/community/file/1014530944191182499",
+    "description": "Detailed consistent icon pack in SVG format that can be used in a variety of design tools. Fully customizable.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 25,
+    "title": "Microsoft Fluent System Icons",
+    "url": "https://www.figma.com/community/file/836835755999342788",
+    "description": "This is a set of the Microsoft Fluent System Icons - used for products across Microsoft. The Fluent System Icons are friendly - including rounded corners, simplified shapes and come in 2 themes: Regular and Filled.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 26,
+    "title": "Ionicons",
+    "url": "https://www.figma.com/community/file/893757888128525570",
+    "description": "Premium designed icons for use in web, iOS, Android, and desktop apps. Support for SVG and web font. Completely open source, MIT licensed and built by the Ionic Framework team.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 27,
+    "title": "Doodle icons by Khushmeen sidhu",
+    "url": "https://www.figma.com/community/file/1019353050314527791",
+    "description": "Hand-drawn icons using an icon grid. 400+ icons with 15 categories.Free for personal & commercial use. No attribution required. Icons available in PNG, SVG & figma format",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 28,
+    "title": "Vuesax modified Kit",
+    "url": "https://www.figma.com/community/file/1014161990176840236",
+    "description": "This lib was made from Vuesax icons (vuesax.com) with modifications for more easy use and faster connections.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 29,
+    "title": "Teensy Flags",
+    "url": "https://www.figma.com/community/file/894984997751231792",
+    "description": "A free set of 16px-wide vector flags of the countries of the world. Inspired by the wonderful FamFamFam country icons, this set has been meticulously designed to fit the smallest of pixel contraints.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 30,
+    "title": "Memoji",
+    "url": "https://www.figma.com/community/file/895239514338276669",
+    "description": "Here are some cool memojis you can use for your next proejct. This asset pack would be updated from time to time. Cheers to beautiful designs.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 31,
+    "title": "Free Vivid Emojis Icons Pack",
+    "url": "https://www.figma.com/community/file/1030054018160182533",
+    "description": "Free Vivid Emojis Icons Pack. 8 funny emojis. Full vector. High resolution for export. Skeuomorph style. Ears are included. Made with love.",
+    "tag": ["icon", "icons", "iconography", "symbols", "design"]
   }
 ]
