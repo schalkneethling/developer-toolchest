@@ -11,7 +11,13 @@
     "title": "Glitch.me",
     "url": "https://glitch.me/",
     "description": "Create your next web project in your browser with no setup and we'll instantly deploy it.",
-    "tag": ["repl", "editor", "sandbox"]
+    "tag": [
+      "repl",
+      "editor",
+      "sandbox",
+      "developer platform",
+      "development platform"
+    ]
   },
   {
     "id": 2,
@@ -276,5 +282,74 @@
     "url": "https://www.figma.com/community/file/1030054018160182533",
     "description": "Free Vivid Emojis Icons Pack. 8 funny emojis. Full vector. High resolution for export. Skeuomorph style. Ears are included. Made with love.",
     "tag": ["icon", "icons", "iconography", "symbols", "design"]
+  },
+  {
+    "id": 32,
+    "title": "Operator Lookup",
+    "url": "https://www.joshwcomeau.com/operator-lookup/",
+    "description": "Enter a JavaScript operator to learn more about it",
+    "tag": ["javascript", "learn", "learning", "resource"]
+  },
+  {
+    "id": 33,
+    "title": "Open Doodles",
+    "url": "https://www.joshwcomeau.com/operator-lookup/",
+    "description": "A Free Set of Open-Source Illustrations!",
+    "tag": ["illustration", "svg", "design", "resource", "doodles"]
+  },
+  {
+    "id": 34,
+    "title": "humaaans",
+    "url": "https://www.humaaans.com/",
+    "description": "Mix-&-match illustrations of people with a design library",
+    "tag": ["illustration", "svg", "design", "resource", "people"]
+  },
+  {
+    "id": 35,
+    "title": "Lukasz Adam Free Illustrations",
+    "url": "https://lukaszadam.com/illustrations",
+    "description": "SVG illustrations free for commercial and personal use under the CC0 license (MIT license) — No attribution required.",
+    "tag": ["illustration", "svg", "design", "resource"]
+  },
+  {
+    "id": 36,
+    "title": "Ira Design",
+    "url": "https://iradesign.io/",
+    "description": "Build your own amazing illustrations using our awesome gradients and hand drawn sketch components.",
+    "tag": ["illustration", "svg", "design", "resource", "people"]
+  },
+  {
+    "id": 37,
+    "title": "DrawKit",
+    "url": "https://drawkit.com/",
+    "description": "Beautiful, free illustrations. Updated weekly. Hand-drawn vector illustration and icon resources, perfect for your next project.",
+    "tag": ["illustration", "svg", "design", "resource"]
+  },
+  {
+    "id": 38,
+    "title": "Illlustrations.co",
+    "url": "https://illlustrations.co",
+    "description": "Open source illustrations kit. Designed 100 awesome illustrations during 100 days of illustration challenge (Now added more than 120+ illustrations). You can download all illustrations completely free and use these to design awesome - landing pages, mobile app or presentations.",
+    "tag": ["illustration", "svg", "design", "resource"]
+  },
+  {
+    "id": 39,
+    "title": "Absurd.Design",
+    "url": "https://absurd.design/",
+    "description": "Absurd illustrations that make sense. What about absurd illustrations for your projects? Take every user on an individual journey through their own imagination.",
+    "tag": ["illustration", "svg", "design", "resource"]
+  },
+  {
+    "id": 40,
+    "title": "Codesandbox",
+    "url": "https://codesandbox.io/",
+    "description": "Where teams build faster, together. Create, share, and get feedback with collaborative sandboxes for rapid web development.",
+    "tag": [
+      "repl",
+      "editor",
+      "sandbox",
+      "developer platform",
+      "development platform"
+    ]
   }
 ]
