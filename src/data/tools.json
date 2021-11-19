@@ -351,5 +351,52 @@
       "developer platform",
       "development platform"
     ]
+  },
+  {
+    "id": 41,
+    "title": "Website Carbon Calculator",
+    "url": "https://www.websitecarbon.com/",
+    "description": "How is your website impacting the planet?",
+    "tag": [
+      "tools",
+      "utility",
+      "sustainable",
+      "environment",
+      "sustainable web design"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Ecograder",
+    "url": "https://ecograder.com/",
+    "description": "How green is your website?",
+    "tag": [
+      "tools",
+      "utility",
+      "sustainable",
+      "environment",
+      "sustainable web design"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Insights",
+    "url": "https://getinsights.io/",
+    "description": "Privacy-Focused Analytics Platform For Developers. Track every metric you need without invading your users privacy",
+    "tag": ["tools", "privacy", "analytics"]
+  },
+  {
+    "id": 44,
+    "title": "Fathom",
+    "url": "https://usefathom.com",
+    "description": "Understand your website visitors without spying on them by using Fathom Analytics. You get all the data and knowledge you need to use your website to generate leads and revenue. And you don't have to invade anyone's privacy or break any privacy laws doing it.",
+    "tag": ["tools", "privacy", "analytics"]
+  },
+  {
+    "id": 45,
+    "title": "Plausible",
+    "url": "https://plausible.io/",
+    "description": "Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU",
+    "tag": ["tools", "privacy", "analytics"]
   }
 ]
