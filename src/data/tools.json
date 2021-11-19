@@ -440,5 +440,12 @@
     "url": "https://puppeteer.github.io/puppeteer/",
     "description": "Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.",
     "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 52,
+    "title": "Google Lighthouse",
+    "url": "https://developers.google.com/web/tools/lighthouse/",
+    "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.",
+    "tag": ["tools", "testing", "test automation", "library", "performance"]
   }
 ]
