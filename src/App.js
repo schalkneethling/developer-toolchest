@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Document } from "flexsearch";
+import { init, trackPages } from "insights-js";
 
 import { Footer } from "./ui/molecules/footer";
 import { Logo } from "./ui/atoms/logo";
@@ -27,6 +28,12 @@ function App() {
       title,
     });
   });
+
+  // insights.io page tracking
+  if (process.env.INSIGHTS_ID) {
+    init(process.env.INSIGHTS_ID);
+    trackPages();
+  }
 
   function doSearch(event, query) {
     event.preventDefault();
