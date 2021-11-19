@@ -30,8 +30,10 @@ function App() {
   });
 
   // insights.io page tracking
-  init("gktouNXGz41jl6Rr");
-  trackPages();
+  if (process.env.INSIGHTS_ID) {
+    init(process.env.INSIGHTS_ID);
+    trackPages();
+  }
 
   function doSearch(event, query) {
     event.preventDefault();
