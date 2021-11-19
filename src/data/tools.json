@@ -398,5 +398,47 @@
     "url": "https://plausible.io/",
     "description": "Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU",
     "tag": ["tools", "privacy", "analytics"]
+  },
+  {
+    "id": 46,
+    "title": "Playwright",
+    "url": "https://playwright.dev/",
+    "description": "Playwright enables reliable end-to-end testing for modern web apps.",
+    "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 47,
+    "title": "Jest",
+    "url": "https://jestjs.io/",
+    "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+    "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 48,
+    "title": "Cypress",
+    "url": "https://www.cypress.io/",
+    "description": "The web has evolved. Finally, testing has too. Fast, easy and reliable testing for anything that runs in a browser.",
+    "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 49,
+    "title": "Nightwatch.js",
+    "url": "https://nightwatchjs.org/",
+    "description": "Nightwatch.js is an integrated, easy to use End-to-End testing solution for web applications and websites, written in Node.js. It uses the W3C WebDriver API to drive browsers and perform commands and assertions on DOM elements.",
+    "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 50,
+    "title": "Selenium",
+    "url": "https://www.selenium.dev/",
+    "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+    "tag": ["tools", "testing", "test automation", "library"]
+  },
+  {
+    "id": 51,
+    "title": "Puppeteer",
+    "url": "https://puppeteer.github.io/puppeteer/",
+    "description": "Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.",
+    "tag": ["tools", "testing", "test automation", "library"]
   }
 ]
