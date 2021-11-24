@@ -447,5 +447,26 @@
     "url": "https://developers.google.com/web/tools/lighthouse/",
     "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.",
     "tag": ["tools", "testing", "test automation", "library", "performance"]
+  },
+  {
+    "id": 53,
+    "title": "Carbon",
+    "url": "https://carbon.now.sh/",
+    "description": "Carbon lets you create and share beautiful images of your source code.",
+    "tag": ["tools", "utility"]
+  },
+  {
+    "id": 54,
+    "title": "Squoosh",
+    "url": "https://squoosh.app/",
+    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+    "tag": ["tools", "utility", "photos", "converter", "online"]
+  },
+  {
+    "id": 55,
+    "title": "Bundlephobia",
+    "url": "https://bundlephobia.com/",
+    "description": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
+    "tag": ["tools", "utility", "performance", "online"]
   }
 ]
