@@ -30,9 +30,9 @@ function App() {
   });
 
   // insights.io page tracking
-  console.log(process.env.INSIGHTS_ID);
-  if (process.env.INSIGHTS_ID) {
-    init(process.env.INSIGHTS_ID);
+  console.log(process.env.REACT_APP_INSIGHTS_ID);
+  if (process.env.REACT_APP_INSIGHTS_ID) {
+    init(process.env.REACT_APP_INSIGHTS_ID);
     trackPages();
   }
 
