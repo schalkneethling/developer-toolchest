@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Document } from "flexsearch";
-import { init, trackPages } from "insights-js";
+import { App } from "insights-js";
 
 import { Footer } from "./ui/molecules/footer";
 import { Logo } from "./ui/atoms/logo";
@@ -11,7 +11,7 @@ import tools from "./data/tools.json";
 
 import "./App.css";
 
-function App() {
+function DeveloperToolchest() {
   const [searchResults, setSearchResults] = React.useState([]);
   const index = new Document({
     document: {
@@ -20,6 +20,7 @@ function App() {
       index: [{ field: "title", tokenize: "forward" }],
     },
   });
+  let insights;
 
   tools.forEach(({ id, title, tag }) => {
     index.add({
@@ -30,10 +31,9 @@ function App() {
   });
 
   // insights.io page tracking
-  console.log(process.env.REACT_APP_INSIGHTS_ID);
   if (process.env.REACT_APP_INSIGHTS_ID) {
-    init(process.env.REACT_APP_INSIGHTS_ID);
-    trackPages();
+    insights = new App(process.env.REACT_APP_INSIGHTS_ID);
+    insights.trackPages();
   }
 
   function doSearch(event, query) {
@@ -44,7 +44,6 @@ function App() {
 
       if (resultSet[0]) {
         const matches = resultSet[0].result.map((index) => tools[index]);
-        console.log(matches);
         setSearchResults(matches);
       }
     }
@@ -62,4 +61,4 @@ function App() {
   );
 }
 
-export default App;
+export default DeveloperToolchest;
