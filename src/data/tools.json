@@ -475,5 +475,20 @@
     "url": "https://crontab.guru/",
     "description": "The quick and simple editor for cron schedule expressions by Cronitor. Quickly understand your cron expression",
     "tag": ["cron", "utility", "cron expression", "crontab", "online"]
+  },
+  {
+    "id": 57,
+    "title": "Hero Generator",
+    "url": "https://hero-generator.netlify.app/",
+    "description": "I've had to implement the same hero for several years now, so like a good lazy programmer, I figured I'd automate it. This generator is intended to get you going, it doesn't provide every value but the code output should give you a nice jumping off point :)",
+    "tag": [
+      "design",
+      "html",
+      "css",
+      "tool",
+      "generator",
+      "hero generator",
+      "automation"
+    ]
   }
 ]
