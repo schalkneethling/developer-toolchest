@@ -293,7 +293,7 @@
   {
     "id": 33,
     "title": "Open Doodles",
-    "url": "https://www.joshwcomeau.com/operator-lookup/",
+    "url": "https://www.opendoodles.com/",
     "description": "A Free Set of Open-Source Illustrations!",
     "tag": ["illustration", "svg", "design", "resource", "doodles"]
   },
@@ -489,6 +489,27 @@
       "generator",
       "hero generator",
       "automation"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Fig",
+    "url": "https://fig.io/",
+    "description": "Your terminal, reimagined. Fig adds VSCode-style autocomplete to your existing terminal. Move faster with Fig.",
+    "tag": ["terminal", "utility", "macos", "fig"]
+  },
+  {
+    "id": 59,
+    "title": "Front Matter",
+    "url": "https://frontmatter.codes/",
+    "description": "Front Matter is a CMS that runs within Visual Studio Code. It gives you the power and control of a full-blown CMS while also providing you the flexibility and speed of the static site generator of your choice. Jump right into editing and creating content with Front Matter and be able to preview it straight in VS Code.",
+    "tag": [
+      "headless cms",
+      "cms",
+      "utility",
+      "vscode",
+      "vscode extension",
+      "extension"
     ]
   }
 ]
