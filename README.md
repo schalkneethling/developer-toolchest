@@ -28,6 +28,10 @@ All tools are listed in `src/data/tools.json`. To add a tool:
 
 > NOTE: All fields are required. Remember to bump the `id` !important 😄
 
+## Libraries used
+
+- [Flexsearch](https://github.com/nextapps-de/flexsearch)
+
 ## Available Scripts
 
 In the project directory, you can run:
