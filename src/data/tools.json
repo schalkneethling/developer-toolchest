@@ -511,5 +511,101 @@
       "vscode extension",
       "extension"
     ]
+  },
+  {
+    "id": 60,
+    "title": "Hugo",
+    "url": "https://gohugo.io/",
+    "description": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.",
+    "tag": ["ssg", "static site generator", "hugo", "go-lang"]
+  },
+  {
+    "id": 61,
+    "title": "11ty",
+    "url": "https://www.11ty.dev/",
+    "description": "Eleventy, a simpler static site generator.",
+    "tag": ["ssg", "static site generator", "11ty", "nodejs", "node"]
+  },
+  {
+    "id": 62,
+    "title": "Gatsby",
+    "url": "https://www.gatsbyjs.com/",
+    "description": "Generate it statically. Generate it dynamically. Or, somewhere in between.",
+    "tag": ["ssg", "static site generator", "gatsby", "reactjs", "react"]
+  },
+  {
+    "id": 63,
+    "title": "VuePress",
+    "url": "https://vuepress.vuejs.org/",
+    "description": "Vue-powered Static Site Generator.",
+    "tag": ["ssg", "static site generator", "vuepress", "vuejs", "vue"]
+  },
+  {
+    "id": 64,
+    "title": "Regexr",
+    "url": "https://regexr.com/",
+    "description": "RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.",
+    "tag": ["regexp", "regex", "tool", "online", "regular expressions"]
+  },
+  {
+    "id": 65,
+    "title": "Workbox",
+    "url": "https://developers.google.com/web/tools/workbox/",
+    "description": "Workbox is a set of libraries that can power a production-ready service worker for your Progressive Web App.",
+    "tag": [
+      "pwa",
+      "progressive web apps",
+      "library",
+      "service worker",
+      "workbox"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "PWACompat",
+    "url": "https://github.com/GoogleChromeLabs/pwacompat",
+    "description": "PWACompat to bring Web App Manifest to older browsers",
+    "tag": ["pwa", "progressive web apps", "library", "manifest", "pwacompat"]
+  },
+  {
+    "id": 67,
+    "title": "pwa-asset-generator",
+    "url": "https://github.com/onderceylan/pwa-asset-generator",
+    "description": "Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.",
+    "tag": [
+      "pwa",
+      "progressive web apps",
+      "library",
+      "pwa-asset-generator",
+      "manifest",
+      "automation"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "PWABuilder",
+    "url": "https://www.pwabuilder.com/",
+    "description": "Ship your PWA to the app stores at lightning speed.",
+    "tag": [
+      "pwa",
+      "progressive web apps",
+      "utility",
+      "online tools",
+      "automation"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "appmanifest",
+    "url": "https://github.com/tomitm/appmanifest",
+    "description": "Web App Manifest Generator.",
+    "tag": [
+      "pwa",
+      "progressive web apps",
+      "utility",
+      "manifest",
+      "appmanifest",
+      "automation"
+    ]
   }
 ]
