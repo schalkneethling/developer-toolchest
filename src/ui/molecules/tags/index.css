@@ -5,11 +5,19 @@
   margin-top: auto;
 }
 
-.tag-list li {
+.tag-list button {
   background-color: var(--color-neutral-500);
+  border: 0;
   border-radius: var(--default-border-radius);
   flex: 1 1 120px;
+  font-size: 1rem;
   justify-content: space-between;
-  padding: var(--padding-small);
+  padding: var(--padding-button);
   text-align: center;
+}
+
+.tag-list button:hover,
+.tag-list button:focus {
+  background-color: var(--color-neutral-800);
+  color: var(--color-neutral-100);
 }

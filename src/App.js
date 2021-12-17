@@ -13,6 +13,8 @@ import "./App.css";
 
 function DeveloperToolchest() {
   const [searchResults, setSearchResults] = React.useState([]);
+  const [searchString, setSearchString] = React.useState("");
+
   const index = new Document({
     document: {
       id: "id",
@@ -36,8 +38,10 @@ function DeveloperToolchest() {
     insights.trackPages();
   }
 
-  function doSearch(event, query) {
-    event.preventDefault();
+  function doSearch(query, event) {
+    event && event.preventDefault();
+
+    setSearchString(query);
 
     if (query) {
       const resultSet = index.search({ tag: query.split(" "), bool: "or" });
@@ -49,12 +53,22 @@ function DeveloperToolchest() {
     }
   }
 
+  function handleChange(event) {
+    setSearchString(event.target.value.toLowerCase());
+  }
+
   return (
     <div className="page-container">
       <div className="app-container">
         <Logo />
-        <Search onSubmitCallback={doSearch} />
-        {searchResults && <SearchResults results={searchResults} />}
+        <Search
+          handleChange={handleChange}
+          onSubmitCallback={doSearch}
+          searchString={searchString}
+        />
+        {searchResults && (
+          <SearchResults results={searchResults} onSubmitCallback={doSearch} />
+        )}
       </div>
       <Footer />
     </div>
