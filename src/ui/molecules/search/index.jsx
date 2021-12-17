@@ -2,19 +2,22 @@ import * as React from "react";
 
 import "./index.css";
 
-export const Search = ({ onSubmitCallback }) => {
-  const searchInputRef = React.useRef(null);
-
+export const Search = ({ handleChange, onSubmitCallback, searchString }) => {
   return (
     <>
+      <p>
+        The search is based on tags. Try searching for{" "}
+        <button onClick={() => onSubmitCallback("repl")}>repl</button>,{" "}
+        <button onClick={() => onSubmitCallback("utility")}>utility</button> or{" "}
+        <button onClick={() => onSubmitCallback("design")}>design</button> for
+        example.
+      </p>
       <form
         name="search-tools"
         action="/search"
         className="search-tools"
         method="get"
-        onSubmit={(event) =>
-          onSubmitCallback(event, searchInputRef.current.value)
-        }
+        onSubmit={(event) => onSubmitCallback(searchString, event)}
       >
         <label htmlFor="search" className="visually-hidden">
           Enter tags separated by spaces
@@ -23,15 +26,12 @@ export const Search = ({ onSubmitCallback }) => {
           id="search"
           type="search"
           name="search"
-          ref={searchInputRef}
+          value={searchString}
           placeholder="Enter tags separated by spaces"
+          onChange={handleChange}
         />
         <button type="submit">Search</button>
       </form>
-      <p>
-        The above search is based on tags. Try searching for <code>repl</code>,{" "}
-        <code>utility</code> or <code>design</code> for example.
-      </p>
     </>
   );
 };
