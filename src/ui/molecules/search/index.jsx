@@ -1,8 +1,15 @@
 import * as React from "react";
 
+import { Suggestions } from "../suggestions";
+
 import "./index.css";
 
-export const Search = ({ handleChange, onSubmitCallback, searchString }) => {
+export const Search = ({
+  handleChange,
+  onSubmitCallback,
+  searchString,
+  tools,
+}) => {
   return (
     <>
       <p>
@@ -28,8 +35,10 @@ export const Search = ({ handleChange, onSubmitCallback, searchString }) => {
           name="search"
           value={searchString}
           placeholder="Enter tags separated by spaces"
+          list="suggestions"
           onChange={handleChange}
         />
+        <Suggestions tools={tools} />
         <button type="submit">Search</button>
       </form>
     </>
