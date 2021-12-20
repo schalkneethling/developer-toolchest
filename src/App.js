@@ -65,6 +65,7 @@ function DeveloperToolchest() {
           handleChange={handleChange}
           onSubmitCallback={doSearch}
           searchString={searchString}
+          tools={tools}
         />
         {searchResults && (
           <SearchResults results={searchResults} onSubmitCallback={doSearch} />
