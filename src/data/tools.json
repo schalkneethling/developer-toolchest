@@ -607,5 +607,72 @@
       "appmanifest",
       "automation"
     ]
+  },
+  {
+    "id": 70,
+    "title": "AssistivLabs",
+    "url": "https://assistivlabs.com/",
+    "description": "Instantly test how accessible your experience is with the real assistive technologies your disabled users rely on — screen readers, magnifiers, and more — from any computer.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "utility",
+      "tools",
+      "vm",
+      "virtual machine",
+      "testing"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Color Contrast Analyser",
+    "url": "https://www.tpgi.com/color-contrast-checker/",
+    "description": "TPGi’s free color contrast checker tool that allows you to easily determine the contrast ratio of two colors simply using an eyedrop tool. The CCA enables you to optimize your content–including text and visual elements–for individuals with vision disabilities like color-blindness and low-vision impairments.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "utility",
+      "tools",
+      "color contrast",
+      "colour contrast",
+      "testing"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Axe",
+    "url": "https://www.deque.com/axe/",
+    "description": "Built on the world’s most popular accessibility testing library, axe-core. Deque’s suite of axe tools offers full coverage for your testing and compliance needs.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "utility",
+      "tools",
+      "audits",
+      "axe",
+      "testing"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Wave",
+    "url": "https://wave.webaim.org/",
+    "description": "WAVE® is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities. WAVE can identify many accessibility and Web Content Accessibility Guideline (WCAG) errors, but also facilitates human evaluation of web content.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "utility",
+      "tools",
+      "audits",
+      "wave",
+      "testing"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "checka11y",
+    "url": "https://checka11y.jackdomleo.dev/",
+    "description": "A CSS stylesheet to quickly highlight a11y concerns.",
+    "tag": ["a11y", "accessibility", "utility", "tools", "testing"]
   }
 ]
