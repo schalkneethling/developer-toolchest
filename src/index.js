@@ -1,12 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Document } from "flexsearch";
+import tools from "./data/tools.json";
+
 import DeveloperToolchest from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import "./index.css";
+
+const index = new Document({
+  document: {
+    id: "id",
+    tag: "tag",
+    index: [{ field: "title", tokenize: "forward" }],
+  },
+});
+
+tools.forEach(({ id, title, tag }) => {
+  index.add({
+    id,
+    tag,
+    title,
+  });
+});
+
 ReactDOM.render(
   <React.StrictMode>
-    <DeveloperToolchest />
+    <Router>
+      <DeveloperToolchest index={index} tools={tools} />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

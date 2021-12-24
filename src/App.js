@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Document } from "flexsearch";
+import { createSearchParams, useSearchParams } from "react-router-dom";
 import { App } from "insights-js";
 
 import { Footer } from "./ui/molecules/footer";
@@ -7,30 +7,14 @@ import { Logo } from "./ui/atoms/logo";
 import { Search } from "./ui/molecules/search";
 import { SearchResults } from "./ui/molecules/search-results";
 
-import tools from "./data/tools.json";
-
 import "./App.css";
 
-function DeveloperToolchest() {
+function DeveloperToolchest({ index, tools }) {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [searchResults, setSearchResults] = React.useState([]);
   const [searchString, setSearchString] = React.useState("");
 
-  const index = new Document({
-    document: {
-      id: "id",
-      tag: "tag",
-      index: [{ field: "title", tokenize: "forward" }],
-    },
-  });
   let insights;
-
-  tools.forEach(({ id, title, tag }) => {
-    index.add({
-      id,
-      tag,
-      title,
-    });
-  });
 
   // insights.io page tracking
   if (process.env.REACT_APP_INSIGHTS_ID) {
@@ -42,20 +26,39 @@ function DeveloperToolchest() {
     event && event.preventDefault();
 
     setSearchString(query);
+    setSearchParams(createSearchParams({ q: query }));
 
-    if (query) {
-      const resultSet = index.search({ tag: query.split(" "), bool: "or" });
+    const resultSet = index.search({
+      tag: searchString.split(" "),
+      bool: "or",
+    });
 
-      if (resultSet[0]) {
-        const matches = resultSet[0].result.map((index) => tools[index]);
-        setSearchResults(matches);
-      }
+    if (resultSet[0]) {
+      const matches = resultSet[0].result.map((index) => tools[index]);
+      setSearchResults(matches);
     }
   }
 
   function handleChange(event) {
     setSearchString(event.target.value.toLowerCase());
   }
+
+  React.useEffect(() => {
+    const searchState = searchParams.get("q");
+
+    if (searchState) {
+      setSearchString(searchState);
+      const resultSet = index.search({
+        tag: searchState.split(" "),
+        bool: "or",
+      });
+
+      if (resultSet[0]) {
+        const matches = resultSet[0].result.map((index) => tools[index]);
+        setSearchResults(matches);
+      }
+    }
+  }, [index, searchParams, tools]);
 
   return (
     <div className="page-container">
