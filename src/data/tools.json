@@ -674,5 +674,133 @@
     "url": "https://checka11y.jackdomleo.dev/",
     "description": "A CSS stylesheet to quickly highlight a11y concerns.",
     "tag": ["a11y", "accessibility", "utility", "tools", "testing"]
+  },
+  {
+    "id": 75,
+    "title": "A modern CSS reset",
+    "url": "https://piccalil.li/blog/a-modern-css-reset/",
+    "description": "A reset of sensible defaults",
+    "tag": ["css", "css reset", "css-reset", "utility"]
+  },
+  {
+    "id": 76,
+    "title": "Babeljs REPL",
+    "url": "https://babeljs.io/repl",
+    "description": "The Babeljs REPL in the browser. Use next generation JavaScript, today.",
+    "tag": ["javascript", "babel", "babeljs", "repl"]
+  },
+  {
+    "id": 77,
+    "title": "Toptal HTML Arrows",
+    "url": "https://www.toptal.com/designers/htmlarrows/",
+    "description": "HTML Arrows is a comprehensive reference website for finding HTML symbol codes and entities, ASCII characters and Unicode hexadecimal values to use in your web design.",
+    "tag": [
+      "html",
+      "sumbol codes",
+      "entities",
+      "html entities",
+      "ascii characters",
+      "unicode",
+      "html arrows"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Social Share Preview",
+    "url": "https://socialsharepreview.com/",
+    "description": "Check your social media share previews. Make sure your website is ready to be shared on social media to optimize your conversion on Facebook, Twitter, LinkedIn & Pinterest.",
+    "tag": ["social share", "social media", "share preview", "testing", "tools"]
+  },
+  {
+    "id": 79,
+    "title": "chroma-js",
+    "url": "https://vis4.net/chromajs/",
+    "description": "chroma.js is a small-ish zero-dependency JavaScript library (13.5kB) for all kinds of color conversions and color scales.",
+    "tag": [
+      "javascript",
+      "chroma",
+      "chromajs",
+      "color",
+      "colour",
+      "tools",
+      "library"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Firebase",
+    "url": "https://firebase.google.com/",
+    "description": "Firebase is Google’s mobile platform that helps you quickly develop high-quality apps and grow your business.",
+    "tag": ["database", "firebase", "cloud", "cloud tools", "google"]
+  },
+  {
+    "id": 81,
+    "title": "Supabase",
+    "url": "https://supabase.com/",
+    "description": "The Open SourceFirebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.",
+    "tag": [
+      "database",
+      "supabase",
+      "cloud",
+      "cloud tools",
+      "authentication",
+      "storage"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Hasura",
+    "url": "https://hasura.io/",
+    "description": "Instant GraphQL on all your data.",
+    "tag": ["database", "graphql", "cloud", "cloud tools", "hasura"]
+  },
+  {
+    "id": 83,
+    "title": "Fauna",
+    "url": "https://fauna.com/",
+    "description": "Fauna is a flexible, developer-friendly, transactional database delivered as a secure and scalable cloud API with native GraphQL.",
+    "tag": [
+      "database",
+      "transactional database",
+      "graphql",
+      "cloud",
+      "cloud tools",
+      "fauna"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "PostgreSQL",
+    "url": "https://www.postgresql.org/",
+    "description": "The World’s Most Advanced Open Source Relational Database.",
+    "tag": ["database", "relational database", "postgresql", "postgres", "sql"]
+  },
+  {
+    "id": 85,
+    "title": "MariaDB",
+    "url": "https://mariadb.org/",
+    "description": "MariaDB Server is one of the most popular open source relational databases. It’s made by the original developers of MySQL and guaranteed to stay open source. It is part of most cloud offerings and the default in most Linux distributions.",
+    "tag": ["database", "relational database", "mariadb", "sql"]
+  },
+  {
+    "id": 86,
+    "title": "MongoDB",
+    "url": "https://www.mongodb.com/",
+    "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
+    "tag": [
+      "database",
+      "mongodb",
+      "nosql",
+      "cloud",
+      "cloud platform",
+      "nosql database"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "SQLite",
+    "url": "https://sqlite.org/index.html",
+    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
+    "tag": ["database", "sqllite", "sql"]
   }
 ]
