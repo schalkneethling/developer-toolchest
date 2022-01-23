@@ -802,5 +802,81 @@
     "url": "https://sqlite.org/index.html",
     "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
     "tag": ["database", "sqllite", "sql"]
+  },
+  {
+    "id": 88,
+    "title": "Image Resizer",
+    "url": "https://imageresizer.com/",
+    "description": "Easily resize images online for free.",
+    "tag": ["utilities", "resize", "image editor"]
+  },
+  {
+    "id": 89,
+    "title": "Node Tap",
+    "url": "https://node-tap.org/",
+    "description": "A Test-Anything-Protocol library for JavaScript",
+    "tag": ["utilities", "testing", "javascript", "node", "node tap", "nodejs"]
+  },
+  {
+    "id": 90,
+    "title": "nvs",
+    "url": "https://github.com/jasongin/nvs",
+    "description": "Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js",
+    "tag": ["nodejs", "cross-platform", "version management", "node"]
+  },
+  {
+    "id": 91,
+    "title": "SEO Writing Assistant",
+    "url": "https://www.semrush.com/swa/",
+    "description": "A smart writing editor that helps you optimize your copy for engagement and SEO.",
+    "tag": ["writing", "seo", "copy editor"]
+  },
+  {
+    "id": 92,
+    "title": "Title Generator",
+    "url": "https://tweakyourbiz.com/title-generator",
+    "description": "Generate great titles for articles and blog posts",
+    "tag": ["writing", "seo", "titles", "title generator"]
+  },
+  {
+    "id": 93,
+    "title": "Power Thesaurus",
+    "url": "https://www.powerthesaurus.org/",
+    "description": "Power Thesaurus is a fast, convenient, community driven, comprehensive online thesaurus",
+    "tag": ["writing", "thesaurus", "power thesaurus"]
+  },
+  {
+    "id": 94,
+    "title": "QuillBot",
+    "url": "https://quillbot.com/",
+    "description": "Paraphraser, grammar checker, summarizer, and citation generator",
+    "tag": [
+      "writing",
+      "paraphraser",
+      "grammar checker",
+      "summarizer",
+      "citation generator"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Headline Analyzer",
+    "url": "https://coschedule.com/headline-analyzer",
+    "description": "Write headlines that drive traffic, shares, and search results",
+    "tag": ["writing", "seo", "headlines"]
+  },
+  {
+    "id": 96,
+    "title": "Hacker Target",
+    "url": "https://hackertarget.com/",
+    "description": "Simplify the security assessment process with hosted vulnerability scanners. From attack surface discovery to vulnerability identification, actionable network intelligence for IT & security operations.",
+    "tag": ["security", "tools", "security assessment", "vulnerability scanner"]
+  },
+  {
+    "id": 97,
+    "title": "espanso",
+    "url": "https://espanso.org/",
+    "description": "Tired of typing the same sentences over and over? Discover the incredible power of a full-blown text expander.",
+    "tag": ["text expander", "automation", "productivity"]
   }
 ]
