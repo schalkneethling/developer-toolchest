@@ -878,5 +878,40 @@
     "url": "https://espanso.org/",
     "description": "Tired of typing the same sentences over and over? Discover the incredible power of a full-blown text expander.",
     "tag": ["text expander", "automation", "productivity"]
+  },
+  {
+    "id": 98,
+    "title": "Capacitor",
+    "url": "https://capacitorjs.com/",
+    "description": "Capacitor is an open source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS.",
+    "tag": ["pwa", "ios", "android", "runtime"]
+  },
+  {
+    "id": 99,
+    "title": "htmx",
+    "url": "https://htmx.org/",
+    "description": "htmx allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext",
+    "tag": ["web", "framework"]
+  },
+  {
+    "id": 100,
+    "title": "hyperscript",
+    "url": "https://hyperscript.org/",
+    "description": "hyperscript makes writing event handlers and highly responsive user interfaces easy with a clear, DOM-oriented syntax and by transparently handling asynchronous behavior for you — easier than callbacks, promises, even async/await.",
+    "tag": ["web", "framework"]
+  },
+  {
+    "id": 101,
+    "title": "Vuejs",
+    "url": "https://vuejs.org/",
+    "description": "The progressive JavaScript framework.",
+    "tag": ["web", "framework", "javascript"]
+  },
+  {
+    "id": 102,
+    "title": "React",
+    "url": "https://reactjs.org/",
+    "description": "A JavaScript library for building user interfaces",
+    "tag": ["web", "framework", "javascript"]
   }
 ]
