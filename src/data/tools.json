@@ -913,5 +913,33 @@
     "url": "https://reactjs.org/",
     "description": "A JavaScript library for building user interfaces",
     "tag": ["web", "framework", "javascript"]
+  },
+  {
+    "id": 103,
+    "title": "Veed.io",
+    "url": "https://www.veed.io/video-compressor",
+    "description": "Compress video and reduce video file size online for free without losing quality.",
+    "tag": ["tools", "online", "video compression", "compression"]
+  },
+  {
+    "id": 104,
+    "title": "Replay.io",
+    "url": "https://www.replay.io/",
+    "description": "Your time travel debugger. Record and replay web applications with familiar browser dev tools.",
+    "tag": ["tools", "devtools", "debugging", "debugging tools"]
+  },
+  {
+    "id": 105,
+    "title": "hue.tools",
+    "url": "https://hue.tools/",
+    "description": "An open source toolbox for colours",
+    "tag": ["tools", "online", "color", "colour", "design"]
+  },
+  {
+    "id": 106,
+    "title": "RegexLearn",
+    "url": "https://regexlearn.com/",
+    "description": "Learn Regex step by step, from zero to advanced. Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.",
+    "tag": ["tools", "online", "learn", "regex"]
   }
 ]
