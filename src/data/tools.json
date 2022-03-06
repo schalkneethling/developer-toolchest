@@ -941,5 +941,27 @@
     "url": "https://regexlearn.com/",
     "description": "Learn Regex step by step, from zero to advanced. Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.",
     "tag": ["tools", "online", "learn", "regex"]
+  },
+  {
+    "id": 107,
+    "title": "Who can use?",
+    "url": "https://whocanuse.com/",
+    "description": "A tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "tools",
+      "online",
+      "color",
+      "colour",
+      "colour contrast"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Fontesk",
+    "url": "https://fontesk.com/",
+    "description": "A curated font library of the best high quality free fonts to download for commercial and personal use.",
+    "tag": ["fonts", "typefaces", "typography", "collection"]
   }
 ]
