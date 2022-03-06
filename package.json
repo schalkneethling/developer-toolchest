@@ -1,5 +1,6 @@
 {
   "name": "developer-toolchest",
+  "description": "Collect all the tools. Filter, find, and use",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
