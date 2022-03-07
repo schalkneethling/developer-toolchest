@@ -963,5 +963,12 @@
     "url": "https://fontesk.com/",
     "description": "A curated font library of the best high quality free fonts to download for commercial and personal use.",
     "tag": ["fonts", "typefaces", "typography", "collection"]
+  },
+  {
+    "id": 109,
+    "title": "Wakamai Fondue",
+    "url": "https://wakamaifondue.com/",
+    "description": "See what your font can do. Especially useful with variable fonts",
+    "tag": ["fonts", "typography", "tools"]
   }
 ]
