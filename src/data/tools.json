@@ -970,5 +970,12 @@
     "url": "https://wakamaifondue.com/",
     "description": "See what your font can do. Especially useful with variable fonts",
     "tag": ["fonts", "typography", "tools"]
+  },
+  {
+    "id": 110,
+    "title": "GitUI",
+    "url": "https://github.com/extrawurst/gitui",
+    "description": "GitUI provides you with the comfort of a git GUI but right in your terminal",
+    "tag": ["utility", "git"]
   }
 ]
