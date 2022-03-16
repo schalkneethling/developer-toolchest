@@ -977,5 +977,33 @@
     "url": "https://github.com/extrawurst/gitui",
     "description": "GitUI provides you with the comfort of a git GUI but right in your terminal",
     "tag": ["utility", "git"]
+  },
+  {
+    "id": 111,
+    "title": "Adobe Color Accessibility Tools",
+    "url": "https://color.adobe.com/create/color-contrast-analyzer",
+    "description": "An expanding tool set to test the color contrast and color blindness safety of your color palette.",
+    "tag": [
+      "color",
+      "colour",
+      "colour contrast",
+      "accessibility",
+      "a11y",
+      "tools"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "A11y Color Palette",
+    "url": "http://a11yrocks.com/colorPalette/",
+    "description": "This tool should help you visualize an entire palette of all color combinations with accessibility in mind. The combinations are ordered by color contrast ratio.",
+    "tag": [
+      "color",
+      "colour",
+      "colour contrast",
+      "accessibility",
+      "a11y",
+      "tools"
+    ]
   }
 ]
