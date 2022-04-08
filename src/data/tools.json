@@ -1005,5 +1005,171 @@
       "a11y",
       "tools"
     ]
+  },
+  {
+    "id": 113,
+    "title": "Bangalore",
+    "url": "https://www.streamlinehq.com/illustrations/bangalore",
+    "description": "An airy and abstract style, minimal and elegant. Easy to adapt to your branding or projects as it uses only two colors. Licensed under the Creative Commons - CC BY 4.0",
+    "tag": [
+      "illustration",
+      "vector illustration",
+      "vector",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Plump - Free",
+    "url": "https://www.streamlinehq.com/icons/streamline-flat-free",
+    "description": "Free set — A flat style that works great on dark backgrounds. Easy to customize with only two colors per icon, highly legible: they are perfect for interface and graphic design. Customize vector path. Licensed under the Creative Commons - CC BY 4.0",
+    "tag": [
+      "illustration",
+      "vector illustration",
+      "icons",
+      "iconography",
+      "vector",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Elements",
+    "url": "https://www.streamlinehq.com/elements",
+    "description": "Whether you’re looking for a geometric, organic or handcrafted look, use these abstract elements and sketch annotations to grab people's attention and make your message clearer and compelling.",
+    "tag": [
+      "illustration",
+      "vector illustration",
+      "vector",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Flex - Free",
+    "url": "https://www.streamlinehq.com/icons/streamline-flex---free",
+    "description": "A minimalistic set, with elegant and smooth curves. Super easy to adapt to your project with only two colors. Customize vector line width. Licensed under the Creative Commons - CC BY 4.0",
+    "tag": [
+      "illustration",
+      "vector illustration",
+      "icons",
+      "iconography",
+      "vector",
+      "design",
+      "design assets"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Maccy",
+    "url": "https://github.com/p0deje/Maccy",
+    "description": "Lightweight clipboard manager for macOS.",
+    "tag": ["tools", "clipboard manager", "utils", "utilities", "macos"]
+  },
+  {
+    "id": 118,
+    "title": "CopyQ",
+    "url": "https://github.com/hluk/CopyQ",
+    "description": "Cross-platform clipboard manager with advanced features.",
+    "tag": [
+      "tools",
+      "clipboard manager",
+      "utils",
+      "utilities",
+      "macos",
+      "windows",
+      "linux"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "npm trends",
+    "url": "https://www.npmtrends.com/",
+    "description": "Compare package download counts over time.",
+    "tag": ["npm", "utils", "utilities", "online tools"]
+  },
+  {
+    "id": 120,
+    "title": "CSS gradient generator",
+    "url": "https://components.ai/gradient/YwyyVFT7wFksVyaiGDk9",
+    "description": "A layer-based interface for composing complex CSS gradients",
+    "tag": ["css", "generators", "utilities", "online tools"]
+  },
+  {
+    "id": 121,
+    "title": "Components.ai",
+    "url": "https://components.ai/",
+    "description": "Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever.",
+    "tag": ["css", "html", "svg", "generators", "utilities", "online tools"]
+  },
+  {
+    "id": 122,
+    "title": "docsQL",
+    "url": "https://github.com/peterbe/docsql",
+    "description": "docsQL - Getting an overview of your Jamstack Markdown files.",
+    "tag": ["analysis", "markdown", "tools", "utilities", "online tools"]
+  },
+  {
+    "id": 123,
+    "title": "Color Contrast Checker",
+    "url": "https://halfaccessible.com/color-contrast-checker/",
+    "description": "Get recommended colors in single click to fix color contrast issues.",
+    "tag": [
+      "a11y",
+      "accessibility",
+      "color contrast",
+      "colour contrast",
+      "tools",
+      "utilities",
+      "online tools"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Squoosh.app",
+    "url": "https://squoosh.app/",
+    "description": "Smaller images mean faster load times. Squoosh can reduce file size and maintain high quality.",
+    "tag": [
+      "optimize",
+      "optimise",
+      "image optimization",
+      "image optimisation",
+      "tools",
+      "utilities",
+      "online tools"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Squoosh.app CLI",
+    "url": "https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli",
+    "description": "Squoosh CLI is an experimental way to run all the codecs you know from the Squoosh web app on your command line using WebAssembly.",
+    "tag": [
+      "optimize",
+      "optimise",
+      "image optimization",
+      "image optimisation",
+      "cli",
+      "tools",
+      "utilities",
+      "online tools"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Floating UI",
+    "url": "https://github.com/floating-ui/floating-ui",
+    "description": "A low-level toolkit to create floating elements. Tooltips, popovers, dropdowns, and more",
+    "tag": ["javascript", "tools", "utilities", "online tools"]
+  },
+  {
+    "id": 127,
+    "title": "Orval",
+    "url": "https://orval.dev/",
+    "description": "Generate, valid, cache and mock in your frontend applications all with your OpenAPI specification.",
+    "tag": ["openapi", "generator", "api", "utilities", "online tools"]
   }
 ]
