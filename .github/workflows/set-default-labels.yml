@@ -1,0 +1,6 @@
+name: set-default-labels
+on: [workflow_dispatch]
+
+jobs:
+  set-default-labels:
+    uses: project-calavera/calavera-reusable-actions/.github/workflows/set-default-labels.yml@main
