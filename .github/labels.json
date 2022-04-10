@@ -1,0 +1,62 @@
+[
+  {
+    "name": "bug",
+    "color": "#ee0701",
+    "description": "something isn’t working"
+  },
+  {
+    "name": "chore",
+    "color": "#84d2e0",
+    "description": "keeping the lights on"
+  },
+  {
+    "name": "enhancement",
+    "color": "#84b6eb",
+    "description": "new feature, or improvement to an existing feature"
+  },
+  {
+    "name": "good first issue",
+    "color": "#2cbe4e",
+    "description": "a good place to start contributing"
+  },
+  {
+    "name": "p0",
+    "color": "#FA1B74",
+    "description": "stop everything!"
+  },
+  {
+    "name": "p1",
+    "color": "#7C5BB3",
+    "description": "top priority items if there is no fire"
+  },
+  {
+    "name": "p2",
+    "color": "#F6BB40",
+    "description": "pick one of these if there are no p1 items"
+  },
+  {
+    "name": "security",
+    "color": "#FF0600",
+    "description": "pull requests or issues related to security vulnerabilities"
+  },
+  {
+    "name": "testing",
+    "color": "#4B0484",
+    "description": "does this thing work?"
+  },
+  {
+    "name": "infra",
+    "color": "#9602FE",
+    "description": "infrastructure related issues"
+  },
+  {
+    "name": "documentation",
+    "color": "#D5BEFF",
+    "description": "write the docs"
+  },
+  {
+    "name": "community",
+    "color": "#D4C5F9",
+    "description": "issues and pull requests by our community"
+  }
+]
