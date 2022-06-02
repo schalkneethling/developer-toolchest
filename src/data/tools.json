@@ -1185,5 +1185,12 @@
     "url": "http://www.chengyinliu.com/whatfont.html",
     "description": "The easiest way to inspect fonts on webpages. Font intormation a click away.",
     "tag": ["fonts", "typefaces", "typography", "browser extension", "utilities"]
+  },
+  {
+    "id": 129,
+    "title": "<All The Tags>",
+    "url": "https://allthetags.com/",
+    "description": "All the HTML tags in one place, with links to MDN and W3C documentation.",
+    "tag": ["html", "html tags", "online tools", "tools", "utilities", "references"]
   }
 ]
