@@ -1171,5 +1171,12 @@
     "url": "https://orval.dev/",
     "description": "Generate, valid, cache and mock in your frontend applications all with your OpenAPI specification.",
     "tag": ["openapi", "generator", "api", "utilities", "online tools"]
+  },
+  {
+    "id": 128,
+    "title": "Fonts in the Wild",
+    "url": "https://www.fontsinthewild.com/",
+    "description": "Visual library to help you find the perfect free or paid fonts for your project.",
+    "tag": ["fonts", "typefaces", "typography", "collection"]
   }
 ]
