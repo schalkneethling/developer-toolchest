@@ -1178,5 +1178,12 @@
     "url": "https://www.fontsinthewild.com/",
     "description": "Visual library to help you find the perfect free or paid fonts for your project.",
     "tag": ["fonts", "typefaces", "typography", "collection"]
+  },
+  {
+    "id": 129,
+    "title": "WhatFont",
+    "url": "http://www.chengyinliu.com/whatfont.html",
+    "description": "The easiest way to inspect fonts on webpages. Font intormation a click away.",
+    "tag": ["fonts", "typefaces", "typography", "browser extension", "utilities"]
   }
 ]
