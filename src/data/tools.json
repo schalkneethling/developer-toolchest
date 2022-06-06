@@ -696,7 +696,7 @@
     "description": "HTML Arrows is a comprehensive reference website for finding HTML symbol codes and entities, ASCII characters and Unicode hexadecimal values to use in your web design.",
     "tag": [
       "html",
-      "sumbol codes",
+      "symbol codes",
       "entities",
       "html entities",
       "ascii characters",
@@ -1171,5 +1171,26 @@
     "url": "https://orval.dev/",
     "description": "Generate, valid, cache and mock in your frontend applications all with your OpenAPI specification.",
     "tag": ["openapi", "generator", "api", "utilities", "online tools"]
+  },
+  {
+    "id": 128,
+    "title": "Fonts in the Wild",
+    "url": "https://www.fontsinthewild.com/",
+    "description": "Visual library to help you find the perfect free or paid fonts for your project.",
+    "tag": ["fonts", "typefaces", "typography", "collection"]
+  },
+  {
+    "id": 129,
+    "title": "WhatFont",
+    "url": "http://www.chengyinliu.com/whatfont.html",
+    "description": "The easiest way to inspect fonts on webpages. Font information one click away.",
+    "tag": ["fonts", "typefaces", "typography", "browser extension", "utilities"]
+  },
+  {
+    "id": 130,
+    "title": "<All The Tags>",
+    "url": "https://allthetags.com/",
+    "description": "All the HTML tags in one place, with links to MDN and W3C documentation.",
+    "tag": ["html", "html tags", "online tools", "tools", "utilities", "references"]
   }
 ]
