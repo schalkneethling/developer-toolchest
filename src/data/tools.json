@@ -1199,5 +1199,12 @@
     "url": "https://www.evernote.design/",
     "description": "All in One Bookmark Links for Designers. Find ton of design resources like UI/UX references, fonts, colors, images among others, as well as content like videos, podcasts and books on design.",
     "tag": ["design", "utility", "design assets", "resource", "references", "collection"]
+  },
+  {
+    "id": 132,
+    "title": "JSON Visio",
+    "url": "https://jsonvisio.com/",
+    "description": "Simple visualization tool for your JSON data. No forced structure, paste your JSON and view it instantly.",
+    "tag": ["json", "utility", "online", "visualization", "visualisation"]
   }
 ]
