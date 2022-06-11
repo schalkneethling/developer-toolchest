@@ -1206,5 +1206,26 @@
     "url": "https://jsonvisio.com/",
     "description": "Simple visualization tool for your JSON data. No forced structure, paste your JSON and view it instantly.",
     "tag": ["json", "utility", "online", "visualization", "visualisation"]
+  },
+  {
+    "id": 133,
+    "title": "GROQ Arcade",
+    "url": "https://groq.dev/",
+    "description": "A query language for JSON documents online REPL.",
+    "tag": ["json", "utility", "json utility", "online", "query", "query language", "groq"]
+  },
+  {
+    "id": 134,
+    "title": "Resize IMAGE",
+    "url": "https://www.iloveimg.com/resize-image",
+    "description": "Resize JPG, PNG, SVG or GIF by defining new height and width pixels. Change image dimensions in bulk.",
+    "tag": ["image", "image utility", "utility", "online", "resize", "image editing"]
+  },
+  {
+    "id": 135,
+    "title": "JSON Hero",
+    "url": "https://jsonhero.io/",
+    "description": "JSON Hero makes reading and understand JSON files easy by giving you a clean and beautiful UI packed with extra features.",
+    "tag": ["json", "json hero", "json utility", "utility", "online"]
   }
 ]
