@@ -1234,5 +1234,12 @@
     "url": "https://docsify.js.org/",
     "description": "Docsify easily generates your documentation website, built around your plain Markdown content and a theme, with minimal setup and configuration.",
     "tag": ["docs", "documentation", "utility", "markdown"]
+  },
+  {
+    "id": 137,
+    "title": "svg2jsx",
+    "url": "https://svg2jsx.com/",
+    "description": "This free tool allows you to paste normal SVG markup directly into the editor, and it outputs valid JSX code instantly, proper for use as a React component.",
+    "tag": ["utility", "tools", "online", "svg", "jsx", "converter", "react"]
   }
 ]
