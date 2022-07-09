@@ -696,7 +696,7 @@
     "description": "HTML Arrows is a comprehensive reference website for finding HTML symbol codes and entities, ASCII characters and Unicode hexadecimal values to use in your web design.",
     "tag": [
       "html",
-      "sumbol codes",
+      "symbol codes",
       "entities",
       "html entities",
       "ascii characters",
@@ -1171,5 +1171,75 @@
     "url": "https://orval.dev/",
     "description": "Generate, valid, cache and mock in your frontend applications all with your OpenAPI specification.",
     "tag": ["openapi", "generator", "api", "utilities", "online tools"]
+  },
+  {
+    "id": 128,
+    "title": "Fonts in the Wild",
+    "url": "https://www.fontsinthewild.com/",
+    "description": "Visual library to help you find the perfect free or paid fonts for your project.",
+    "tag": ["fonts", "typefaces", "typography", "collection"]
+  },
+  {
+    "id": 129,
+    "title": "WhatFont",
+    "url": "http://www.chengyinliu.com/whatfont.html",
+    "description": "The easiest way to inspect fonts on webpages. Font information one click away.",
+    "tag": ["fonts", "typefaces", "typography", "browser extension", "utilities"]
+  },
+  {
+    "id": 130,
+    "title": "<All The Tags>",
+    "url": "https://allthetags.com/",
+    "description": "All the HTML tags in one place, with links to MDN and W3C documentation.",
+    "tag": ["html", "html tags", "online tools", "tools", "utilities", "references"]
+  },
+  {
+    "id": 131,
+    "title": "Evernote.design",
+    "url": "https://www.evernote.design/",
+    "description": "All in One Bookmark Links for Designers. Find ton of design resources like UI/UX references, fonts, colors, images among others, as well as content like videos, podcasts and books on design.",
+    "tag": ["design", "utility", "design assets", "resource", "references", "collection"]
+  },
+  {
+    "id": 132,
+    "title": "JSON Visio",
+    "url": "https://jsonvisio.com/",
+    "description": "Simple visualization tool for your JSON data. No forced structure, paste your JSON and view it instantly.",
+    "tag": ["json", "utility", "online", "visualization", "visualisation"]
+  },
+  {
+    "id": 133,
+    "title": "GROQ Arcade",
+    "url": "https://groq.dev/",
+    "description": "A query language for JSON documents online REPL.",
+    "tag": ["json", "utility", "json utility", "online", "query", "query language", "groq"]
+  },
+  {
+    "id": 134,
+    "title": "Resize IMAGE",
+    "url": "https://www.iloveimg.com/resize-image",
+    "description": "Resize JPG, PNG, SVG or GIF by defining new height and width pixels. Change image dimensions in bulk.",
+    "tag": ["image", "image utility", "utility", "online", "resize", "image editing"]
+  },
+  {
+    "id": 135,
+    "title": "JSON Hero",
+    "url": "https://jsonhero.io/",
+    "description": "JSON Hero makes reading and understand JSON files easy by giving you a clean and beautiful UI packed with extra features.",
+    "tag": ["json", "json hero", "json utility", "utility", "online"]
+  },
+  {
+    "id": 136,
+    "title": "Docsify",
+    "url": "https://docsify.js.org/",
+    "description": "Docsify easily generates your documentation website, built around your plain Markdown content and a theme, with minimal setup and configuration.",
+    "tag": ["docs", "documentation", "utility", "markdown"]
+  },
+  {
+    "id": 137,
+    "title": "svg2jsx",
+    "url": "https://svg2jsx.com/",
+    "description": "This free tool allows you to paste normal SVG markup directly into the editor, and it outputs valid JSX code instantly, proper for use as a React component.",
+    "tag": ["utility", "tools", "online", "svg", "jsx", "converter", "react"]
   }
 ]
