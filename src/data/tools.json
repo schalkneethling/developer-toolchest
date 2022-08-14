@@ -1241,5 +1241,61 @@
     "url": "https://svg2jsx.com/",
     "description": "This free tool allows you to paste normal SVG markup directly into the editor, and it outputs valid JSX code instantly, proper for use as a React component.",
     "tag": ["utility", "tools", "online", "svg", "jsx", "converter", "react"]
+  },
+  {
+    "id": 138,
+    "title": "Svelte",
+    "url": "https://svelte.dev/",
+    "description": "A front-end, open-source JavaScript framework for making interactive webpages.",
+    "tag": ["web", "framework", "javascript"]
+  },
+  {
+    "id": 139,
+    "title": "SolidJS",
+    "url": "https://www.solidjs.com/",
+    "description": "A declarative, efficient and flexible JavaScript library for building user interfaces.",
+    "tag": ["web", "framework", "javascript"]
+  },
+  {
+    "id": 140,
+    "title": "Three.js",
+    "url": "https://threejs.org/",
+    "description": "A JavaScript library for creating animated 3D graphics.",
+    "tag": ["web", "framework", "javascript", "WebGL"]
+  },
+  {
+    "id": 141,
+    "title": "Replit",
+    "url": "https://replit.com/",
+    "description": "The collaborative browser based IDE.",
+    "tag": [ "repl", "editor", "IDE", "Collaboration", "Web hosting service"]
+  },
+  {
+    "id": 142,
+    "title": "Postman",
+    "url": "https://www.postman.com/",
+    "description": "An API platform for building and using APIs.",
+    "tag": [ "API", "editor", "devtools", "web", "testing"]
+  },
+  {
+    "id": 143,
+    "title": "RapidAPI",
+    "url": "https://rapidapi.com/",
+    "description": "The Next-Generation API Platform.",
+    "tag": [ "API", "devtools", "web", "testing"]
+  },
+  {
+    "id": 144,
+    "title": "Streamlit",
+    "url": "https://streamlit.io/",
+    "description": "A faster way to build and share data apps.",
+    "tag": [ "Python", "framework", "web"]
+  },
+  {
+    "id": 145,
+    "title": "daily.dev",
+    "url": "https://daily.dev/",
+    "description": "An online community where developers grow together.",
+    "tag": [ "productivity", "tool", "community"]
   }
 ]
