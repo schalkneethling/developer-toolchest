@@ -3,7 +3,7 @@
   border-radius: var(--default-border-radius);
   box-shadow: var(--card-box-shadow);
   display: flex;
-  flex: 1 0 350px;
+  flex: 1 1 250px;
   flex-direction: column;
   padding: var(--padding-base);
   width: 100%;
