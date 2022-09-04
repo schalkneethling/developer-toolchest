@@ -4,14 +4,18 @@
     "title": "Codepen.io",
     "url": "https://codepen.io/",
     "description": "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
-    "tag": ["repl", "editor"]
+    "logo": "codepen.png",
+    "tag": ["codepen", "repl", "editor"]
   },
   {
     "id": 1,
     "title": "Glitch.me",
     "url": "https://glitch.me/",
     "description": "Create your next web project in your browser with no setup and we'll instantly deploy it.",
+    "logo": "glitch.png",
     "tag": [
+      "glitch",
+      "glitch.me",
       "repl",
       "editor",
       "sandbox",
@@ -24,13 +28,15 @@
     "title": "JSFiddle.net",
     "url": "https://jsfiddle.net/",
     "description": "JSFiddle is an online IDE which is designed to allow users to edit and run HTML, JavaScript, and CSS code on a single page. Its interface is minimalist and split into four main frames, which correspond to editable HTML, JavaScript and CSS fields and a result field which displays the user's project after it is run.",
-    "tag": ["repl", "editor"]
+    "logo": "jsfiddle.png",
+    "tag": ["jsfiddle", "repl", "editor"]
   },
   {
     "id": 3,
     "title": "SVGOMG",
     "url": "https://jakearchibald.github.io/svgomg/",
     "description": "SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.",
+    "logo": "svgomg.png",
     "tag": ["utility", "online", "svg", "performance"]
   },
   {
@@ -204,7 +210,8 @@
     "title": "Prettier Playground",
     "url": "https://prettier.io/playground/",
     "description": "Prettier is an opinionated code formatter, that supports many languages, integrates with most editors, and has few options. Try it online!",
-    "tag": ["repl", "playground", "editor", "formatter", "utility"]
+    "logo": "prettier.png",
+    "tag": ["prettier", "repl", "playground", "editor", "formatter", "utility"]
   },
   {
     "id": 22,
@@ -1297,5 +1304,12 @@
     "url": "https://daily.dev/",
     "description": "An online community where developers grow together.",
     "tag": [ "productivity", "tool", "community"]
+  },
+  {
+    "id": 146,
+    "title": "Pngegg",
+    "url": "https://www.pngegg.com/",
+    "description": "A great place to find a wide variety of images you would desire for your designs.",
+    "tag": [ "design assets", "design", "image"]
   }
 ]
