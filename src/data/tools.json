@@ -1311,5 +1311,14 @@
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
     "tag": [ "design assets", "design", "image"]
+  },
+  {
+    "id": 147,
+    "title": "Qrcodemonkey",
+    "url": "https://www.qrcode-monkey.com/",
+    "description": "In need of a free qr code? This is the place to get it from links to websites to wifi or even facebook.",
+    "logo": "QrCodeMonkey.png",
+    "alt": "A monkey with the title Qr Code Monkey",
+    "tag": ["qr code", "utility", "tools"]
   }
 ]
