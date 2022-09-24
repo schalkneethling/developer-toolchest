@@ -1317,7 +1317,7 @@
     "title": "Qrcodemonkey",
     "url": "https://www.qrcode-monkey.com/",
     "description": "In need of a free qr code? This is the place to get it from links to websites to wifi or even facebook.",
-    "logo": "QrCodeMonkey.png",
+    "logo": "qrcodemonkey.png",
     "alt": "A monkey with the title Qr Code Monkey",
     "tag": ["qr code", "utility", "tools"]
   }
