@@ -6,7 +6,7 @@ export const Card = ({ result, children }) => {
     <li className="card">
       {logo && <img src={`${process.env.PUBLIC_URL}/logos/${logo}`} height="150" width="250" alt={alt || ""} />}
       <h2>
-        <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} >{title} </a>
+        <a href={url}>{title}</a>
       </h2>
       {description && <p>{description}</p>}
       {children}
