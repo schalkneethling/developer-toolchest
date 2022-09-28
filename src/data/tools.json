@@ -44,6 +44,7 @@
     "title": "RealFaviconGenerator",
     "url": "https://realfavicongenerator.net/",
     "description": "With so many platforms and icons, it's hard to know exactly what you should do. What are the dimensions of favicon.ico? How many Touch icons do I need? RealFaviconGenerator did the reseach and testing for you.",
+    "logo": "realFaviconGenerator.png",
     "tag": ["utility", "online", "favicon"]
   },
   {
@@ -58,6 +59,7 @@
     "title": "Coolors",
     "url": "https://coolors.co/",
     "description": "The super fast color schemes generator! Create the perfect palette or get inspired by thousands of beautiful color schemes.",
+    "logo": "coolors.png",
     "tag": [
       "color",
       "colour",
@@ -74,6 +76,7 @@
     "title": "Google Fonts",
     "url": "https://fonts.google.com/",
     "description": "Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons, makes it easy to integrate expressive type and icons seamlessly—no matter where you are in the world.",
+    "logo":"googlefonts.png",
     "tag": ["fonts", "typography", "icons", "iconography"]
   },
   {
@@ -81,6 +84,7 @@
     "title": "Modular Scale",
     "url": "https://www.modularscale.com/",
     "description": "First introduced at Build 2010 by Tim Brown, this site was built as a tool to help web designers size their type in a more meaningful way. The site re-launched at AEA Atlanta 2015 through a collaboration between Tim Brown and Scott Kellum.",
+    "logo": "modularscale.png",
     "tag": ["fonts", "typography", "utility", "type scale", "type-scale"]
   },
   {
@@ -95,6 +99,7 @@
     "title": "unDraw",
     "url": "https://undraw.co/",
     "description": "Open-source illustrations for any idea you can imagine and create. A constantly updated design project with beautiful SVG images that you can use completely free and without attribution.",
+    "logo": "undraw.png",
     "tag": ["illustrations", "illustration", "svg", "design", "design assets"]
   },
   {
@@ -102,6 +107,7 @@
     "title": "The Noun Project",
     "url": "https://thenounproject.com/",
     "description": "Noun Project is building a global visual language that unites us — a language that allows quick and easy communication no matter who you are or where you are.",
+    "logo": "theNounProject.png",
     "tag": [
       "icons",
       "iconography",
@@ -116,6 +122,7 @@
     "title": "Unsplash",
     "url": "https://unsplash.com/",
     "description": "Over 2 million free high-resolution images brought to you by the world’s most generous community of photographers.",
+    "logo": "unsplash.png",
     "tag": [
       "stock",
       "stock photography",
@@ -130,6 +137,7 @@
     "title": "Figma",
     "url": "https://figma.com/",
     "description": "Figma connects everyone in the design process so teams can deliver better products, faster.",
+    "logo": "figma.png",
     "tag": [
       "application",
       "design",
@@ -144,6 +152,7 @@
     "title": "unavatar",
     "url": "https://unavatar.io/",
     "description": "Get a unified user avatar from multiple providers.",
+    "logo": "unavatar.png",
     "tag": ["avatar", "microservice", "placeholder", "utility"]
   },
   {
@@ -173,6 +182,7 @@
     "title": "Remix Icon",
     "url": "https://remixicon.com/",
     "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.",
+    "logo": "remixicon.png",
     "tag": ["icon", "icons", "iconography", "symbols", "design"]
   },
   {
@@ -180,6 +190,7 @@
     "title": "iconmonstr",
     "url": "https://iconmonstr.com/",
     "description": "iconmonstr - free, monstrously big and continuously growing source of simple icons run by one creator",
+    "logo": "iconmonstr.png",
     "tag": ["icon", "icons", "iconography", "symbols", "design"]
   },
   {
@@ -194,6 +205,7 @@
     "title": "fontplop",
     "url": "https://github.com/matthewgonzalez/fontplop",
     "description": "FontPlop is an OSX/macOS application which takes ttf and otf files and outputs a webfont bundle: woff2, woff, ttf/otf. It is the simpler, faster, free successor to FontPrep, which is no longer maintained",
+    "logo":"fontplop.png",
     "tag": [
       "typography",
       "utility",
@@ -330,6 +342,7 @@
     "title": "DrawKit",
     "url": "https://drawkit.com/",
     "description": "Beautiful, free illustrations. Updated weekly. Hand-drawn vector illustration and icon resources, perfect for your next project.",
+    "logo": "drawkit.png",
     "tag": ["illustration", "svg", "design", "resource"]
   },
   {
@@ -351,6 +364,7 @@
     "title": "Codesandbox",
     "url": "https://codesandbox.io/",
     "description": "Where teams build faster, together. Create, share, and get feedback with collaborative sandboxes for rapid web development.",
+    "logo": "codesandbox.png",
     "tag": [
       "repl",
       "editor",
@@ -1254,6 +1268,7 @@
     "title": "Svelte",
     "url": "https://svelte.dev/",
     "description": "A front-end, open-source JavaScript framework for making interactive webpages.",
+    "logo": "svelte.png",
     "tag": ["web", "framework", "javascript"]
   },
   {
@@ -1303,6 +1318,7 @@
     "title": "daily.dev",
     "url": "https://daily.dev/",
     "description": "An online community where developers grow together.",
+    "logo": "dailydev.png",
     "tag": [ "productivity", "tool", "community"]
   },
   {
@@ -1311,5 +1327,45 @@
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
     "tag": [ "design assets", "design", "image"]
+  },
+  {
+    "id": 147,
+    "title": "3D icons",
+    "url": "https://3dicons.co/",
+    "description": "Beautifully crafted open source 3D icons.",
+    "logo": "3dicons.png",
+    "tag": [ "icons", "iconography", "design", "design assets" ]
+  },
+  {
+    "id": 148,
+    "title": "snippet generator",
+    "url": "https://snippet-generator.app/",
+    "description": "Snippet generator for Visual Studio Code, Sublime Text and Atom.",
+    "tag": [ "snippet", "tools", "utility", "generator" ]
+  },
+  {
+    "id": 149,
+    "title": "clientdb",
+    "url": "https://clientdb.dev/",
+    "description": "Build lightning fast apps with instantaneous interactions.",
+    "logo": "clientdb.png",
+    "tag": [ "database", "tool"]
+  },
+  {
+    "id": 150,
+    "title": "snoopForms",
+    "url": "https://snoopforms.com/",
+    "description": "The Open-source Typeform Alternative.",
+    "logo": "snoop-forms.png",
+    "tag": [ "no-code", "tool", "analytics", "data platform", "open source"]
+  },
+  {
+    "id": 151,
+    "title": "Medusa",
+    "url": "https://medusajs.com/",
+    "description": "The open-source Shopify alternative.",
+    "logo": "medusa.png",
+    "tag": [ "development platform", "tool", "API", "open source"]
   }
+
 ]
