@@ -1326,6 +1326,7 @@
     "title": "Pngegg",
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
+    "logo": "pngegg.png",
     "tag": [ "design assets", "design", "image"]
   },
   {
@@ -1366,6 +1367,13 @@
     "description": "The open-source Shopify alternative.",
     "logo": "medusa.png",
     "tag": [ "development platform", "tool", "API", "open source"]
+  },
+  {
+    "id": 152,
+    "title": "Qrcodemonkey",
+    "url": "https://www.qrcode-monkey.com/",
+    "description": "A great place to find a wide variety of images you would desire for your designs.",
+    "logo": "qrcodemonkey.png",
+    "tag": [ "design assets", "design", "image"]
   }
-
 ]
