@@ -1369,16 +1369,16 @@
   },
   {
   "id": 152,
-   "title": "NVM - Node Version Manager",
+   "title": "NVM - Node Version Manager - Linux/Mac",
    "url": "https://github.com/nvm-sh/nvm",
    "description": "Open Source version manager for Linux and Mac",
     "tag": ["nodej", "node package manager", "package manager", "nvm"]
   },
   {
-  "id": 152,
-   "title": "NVM - Node Version Manager",
+  "id": 153,
+   "title": "NVM - Node Version Manager - Windows",
    "url": "https://github.com/coreybutler/nvm-windows",
    "description": "Open Source version manager for Windows",
-    "tag": ["tool", "open-source", "package manager"]
+    "tag": ["nodej", "node package manager", "package manager", "nvm"]
   }
 ]
