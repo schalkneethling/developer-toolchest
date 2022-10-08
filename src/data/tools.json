@@ -1380,5 +1380,5 @@
    "url": "https://github.com/coreybutler/nvm-windows",
    "description": "Open Source version manager for Windows",
     "tag": ["nodej", "node package manager", "package manager", "nvm"]
-  },
+  }
 ]
