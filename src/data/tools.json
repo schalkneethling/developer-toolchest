@@ -1366,6 +1366,21 @@
     "description": "The open-source Shopify alternative.",
     "logo": "medusa.png",
     "tag": [ "development platform", "tool", "API", "open source"]
+  },
+  {
+    "id": 152,
+    "title": "JSON Diff",
+    "url": "https://www.jsondiff.com/",
+    "description": "The semantic JSON compare tool.",
+    "tag": [ "json", "json utility", "tool", "online" ]
+  },
+  {
+    "id": 153,
+    "title": "Mod Header",
+    "url": "https://modheader.com/",
+    "description": "Devtool used to quickly change request and response headers.",
+    "logo": "modheader.png",
+    "tag": [ "request header", "response header", "browser extension", "devtools", "utility"]
   }
 
 ]
