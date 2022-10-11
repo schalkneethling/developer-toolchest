@@ -76,7 +76,7 @@
     "title": "Google Fonts",
     "url": "https://fonts.google.com/",
     "description": "Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons, makes it easy to integrate expressive type and icons seamlessly—no matter where you are in the world.",
-    "logo":"googlefonts.png",
+    "logo": "googlefonts.png",
     "tag": ["fonts", "typography", "icons", "iconography"]
   },
   {
@@ -205,7 +205,7 @@
     "title": "fontplop",
     "url": "https://github.com/matthewgonzalez/fontplop",
     "description": "FontPlop is an OSX/macOS application which takes ttf and otf files and outputs a webfont bundle: woff2, woff, ttf/otf. It is the simpler, faster, free successor to FontPrep, which is no longer maintained",
-    "logo":"fontplop.png",
+    "logo": "fontplop.png",
     "tag": [
       "typography",
       "utility",
@@ -1205,21 +1205,41 @@
     "title": "WhatFont",
     "url": "http://www.chengyinliu.com/whatfont.html",
     "description": "The easiest way to inspect fonts on webpages. Font information one click away.",
-    "tag": ["fonts", "typefaces", "typography", "browser extension", "utilities"]
+    "tag": [
+      "fonts",
+      "typefaces",
+      "typography",
+      "browser extension",
+      "utilities"
+    ]
   },
   {
     "id": 130,
     "title": "<All The Tags>",
     "url": "https://allthetags.com/",
     "description": "All the HTML tags in one place, with links to MDN and W3C documentation.",
-    "tag": ["html", "html tags", "online tools", "tools", "utilities", "references"]
+    "tag": [
+      "html",
+      "html tags",
+      "online tools",
+      "tools",
+      "utilities",
+      "references"
+    ]
   },
   {
     "id": 131,
     "title": "Evernote.design",
     "url": "https://www.evernote.design/",
     "description": "All in One Bookmark Links for Designers. Find ton of design resources like UI/UX references, fonts, colors, images among others, as well as content like videos, podcasts and books on design.",
-    "tag": ["design", "utility", "design assets", "resource", "references", "collection"]
+    "tag": [
+      "design",
+      "utility",
+      "design assets",
+      "resource",
+      "references",
+      "collection"
+    ]
   },
   {
     "id": 132,
@@ -1233,14 +1253,29 @@
     "title": "GROQ Arcade",
     "url": "https://groq.dev/",
     "description": "A query language for JSON documents online REPL.",
-    "tag": ["json", "utility", "json utility", "online", "query", "query language", "groq"]
+    "tag": [
+      "json",
+      "utility",
+      "json utility",
+      "online",
+      "query",
+      "query language",
+      "groq"
+    ]
   },
   {
     "id": 134,
     "title": "Resize IMAGE",
     "url": "https://www.iloveimg.com/resize-image",
     "description": "Resize JPG, PNG, SVG or GIF by defining new height and width pixels. Change image dimensions in bulk.",
-    "tag": ["image", "image utility", "utility", "online", "resize", "image editing"]
+    "tag": [
+      "image",
+      "image utility",
+      "utility",
+      "online",
+      "resize",
+      "image editing"
+    ]
   },
   {
     "id": 135,
@@ -1290,28 +1325,28 @@
     "title": "Replit",
     "url": "https://replit.com/",
     "description": "The collaborative browser based IDE.",
-    "tag": [ "repl", "editor", "IDE", "Collaboration", "Web hosting service"]
+    "tag": ["repl", "editor", "IDE", "Collaboration", "Web hosting service"]
   },
   {
     "id": 142,
     "title": "Postman",
     "url": "https://www.postman.com/",
     "description": "An API platform for building and using APIs.",
-    "tag": [ "API", "editor", "devtools", "web", "testing"]
+    "tag": ["API", "editor", "devtools", "web", "testing"]
   },
   {
     "id": 143,
     "title": "RapidAPI",
     "url": "https://rapidapi.com/",
     "description": "The Next-Generation API Platform.",
-    "tag": [ "API", "devtools", "web", "testing"]
+    "tag": ["API", "devtools", "web", "testing"]
   },
   {
     "id": 144,
     "title": "Streamlit",
     "url": "https://streamlit.io/",
     "description": "A faster way to build and share data apps.",
-    "tag": [ "Python", "framework", "web"]
+    "tag": ["Python", "framework", "web"]
   },
   {
     "id": 145,
@@ -1319,14 +1354,14 @@
     "url": "https://daily.dev/",
     "description": "An online community where developers grow together.",
     "logo": "dailydev.png",
-    "tag": [ "productivity", "tool", "community"]
+    "tag": ["productivity", "tool", "community"]
   },
   {
     "id": 146,
     "title": "Pngegg",
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
-    "tag": [ "design assets", "design", "image"]
+    "tag": ["design assets", "design", "image"]
   },
   {
     "id": 147,
@@ -1334,14 +1369,14 @@
     "url": "https://3dicons.co/",
     "description": "Beautifully crafted open source 3D icons.",
     "logo": "3dicons.png",
-    "tag": [ "icons", "iconography", "design", "design assets" ]
+    "tag": ["icons", "iconography", "design", "design assets"]
   },
   {
     "id": 148,
     "title": "snippet generator",
     "url": "https://snippet-generator.app/",
     "description": "Snippet generator for Visual Studio Code, Sublime Text and Atom.",
-    "tag": [ "snippet", "tools", "utility", "generator" ]
+    "tag": ["snippet", "tools", "utility", "generator"]
   },
   {
     "id": 149,
@@ -1349,7 +1384,7 @@
     "url": "https://clientdb.dev/",
     "description": "Build lightning fast apps with instantaneous interactions.",
     "logo": "clientdb.png",
-    "tag": [ "database", "tool"]
+    "tag": ["database", "tool"]
   },
   {
     "id": 150,
@@ -1357,7 +1392,7 @@
     "url": "https://snoopforms.com/",
     "description": "The Open-source Typeform Alternative.",
     "logo": "snoop-forms.png",
-    "tag": [ "no-code", "tool", "analytics", "data platform", "open source"]
+    "tag": ["no-code", "tool", "analytics", "data platform", "open source"]
   },
   {
     "id": 151,
@@ -1365,7 +1400,51 @@
     "url": "https://medusajs.com/",
     "description": "The open-source Shopify alternative.",
     "logo": "medusa.png",
-    "tag": [ "development platform", "tool", "API", "open source"]
+    "tag": ["development platform", "tool", "API", "open source"]
+  },
+  {
+    "id": 152,
+    "title": "CSS Gradient Generator",
+    "url": "https://www.joshwcomeau.com/gradient-generator/",
+    "description": "Beautiful, lush gradients by Josh W. Comeau.",
+    "tag": [
+      "css",
+      "tool",
+      "tools",
+      "design",
+      "gradient generator",
+      "generator",
+      "generators",
+      "utility",
+      "utilities",
+      "online tools"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "NVM(Node Version Manager) for Linux/MacOS",
+    "url": "https://github.com/nvm-sh/nvm",
+    "description": "Open Source version manager for Linux and Mac",
+    "tag": [
+      "nodejs",
+      "node package manager",
+      "package manager",
+      "nvm",
+      "macOS",
+      "linux"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "NVM(Node Version Manager) for Windows",
+    "url": "https://github.com/coreybutler/nvm-windows",
+    "description": "Open Source version manager for Windows",
+    "tag": [
+      "nodejs",
+      "node package manager",
+      "package manager",
+      "nvm-windows",
+      "windows"
+    ]
   }
-
 ]
