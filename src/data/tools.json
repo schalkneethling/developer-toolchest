@@ -1366,6 +1366,19 @@
     "description": "The open-source Shopify alternative.",
     "logo": "medusa.png",
     "tag": [ "development platform", "tool", "API", "open source"]
+  },
+  {
+  "id": 152,
+   "title": "NVM(Node Version Manager) for Linux/MacOS",
+   "url": "https://github.com/nvm-sh/nvm",
+   "description": "Open Source version manager for Linux and Mac",
+    "tag": ["nodejs", "node package manager", "package manager", "nvm", "macOS", "linux"]
+  },
+  {
+  "id": 153,
+   "title": "NVM(Node Version Manager) for Windows",
+   "url": "https://github.com/coreybutler/nvm-windows",
+   "description": "Open Source version manager for Windows",
+    "tag": ["nodejs", "node package manager", "package manager", "nvm-windows", "windows"]
   }
-
 ]
