@@ -1379,6 +1379,6 @@
    "title": "NVM - Node Version Manager - Windows",
    "url": "https://github.com/coreybutler/nvm-windows",
    "description": "Open Source version manager for Windows",
-    "tag": ["nodej", "node package manager", "package manager", "nvm"]
+    "tag": ["nodejs", "node package manager", "package manager", "nvm-windows", "windows"]
   }
 ]
