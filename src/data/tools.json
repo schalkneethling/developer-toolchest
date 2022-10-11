@@ -1369,7 +1369,7 @@
   },
   {
   "id": 152,
-   "title": "NVM - Node Version Manager - Linux/Mac",
+   "title": "NVM(Node Version Manager) for Linux/macOS",
    "url": "https://github.com/nvm-sh/nvm",
    "description": "Open Source version manager for Linux and Mac",
     "tag": ["nodejs", "node package manager", "package manager", "nvm", "macOS", "linux"]
