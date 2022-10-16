@@ -1361,6 +1361,7 @@
     "title": "Pngegg",
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
+    "logo": "Pngegg.png",
     "tag": ["design assets", "design", "image"]
   },
   {
@@ -1461,5 +1462,13 @@
       "photography",
       "design assets"
     ]
+  },
+  {
+    "id": 156,
+    "title": "Qrcode Monkey",
+    "url": "https://www.qrcode-monkey.com/",
+    "description": "A great place to generate free qrcodes. It even allows you to customise them.",
+    "logo": "qrcodemonkey.png",
+    "tag": ["qrcode generator", "qrcode"]
   }
 ]
