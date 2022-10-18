@@ -1476,5 +1476,5 @@
     "description": "Devtool used to quickly change request and response headers.",
     "logo": "modheader.png",
     "tag": ["request header", "response header", "browser extension", "devtools", "utility"]
-  },
+  }
 ]
