@@ -1475,6 +1475,21 @@
     "url": "https://modheader.com/",
     "description": "Devtool used to quickly change request and response headers.",
     "logo": "modheader.png",
-    "tag": ["request header", "response header", "browser extension", "devtools", "utility"]
+    "tag": [
+      "request header",
+      "response header",
+      "browser extension",
+      "devtools",
+      "utility"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Mozilla Observatory",
+    "url": "https://observatory.mozilla.org/",
+    "description": "The Mozilla Observatory has helped over 240,000 websites by teaching developers, system administrators, and security professionals how to configure their sites safely and securely.",
+    "logo": "mozilla-observatory.png",
+    "alt": "The Mozilla observatory wordmark",
+    "tag": ["security", "security assessment", "mozilla observatory"]
   }
 ]
