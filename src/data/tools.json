@@ -1461,5 +1461,12 @@
       "photography",
       "design assets"
     ]
+  },
+  {
+    "id": 156,
+    "title": "Mozilla Observatory",
+    "url": "https://observatory.mozilla.org/",
+    "description": "The Mozilla Observatory has helped over 240,000 websites by teaching developers, system administrators, and security professionals how to configure their sites safely and securely.",
+    "tag": ["security", "security assessment", "mozilla observatory"]
   }
 ]
