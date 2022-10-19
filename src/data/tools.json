@@ -1361,6 +1361,7 @@
     "title": "Pngegg",
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
+    "logo": "Pngegg.png",
     "tag": ["design assets", "design", "image"]
   },
   {
@@ -1464,13 +1465,21 @@
   },
   {
     "id": 156,
+    "title": "Qrcode Monkey",
+    "url": "https://www.qrcode-monkey.com/",
+    "description": "A great place to generate free qrcodes. It even allows you to customise them.",
+    "logo": "qrcodemonkey.png",
+    "tag": ["qrcode generator", "qrcode"]
+  },
+  {
+    "id": 157,
     "title": "JSON Diff",
     "url": "https://www.jsondiff.com/",
     "description": "The semantic JSON compare tool.",
     "tag": ["json", "json utility", "tool", "online"]
   },
   {
-    "id": 157,
+    "id": 158,
     "title": "Mod Header",
     "url": "https://modheader.com/",
     "description": "Devtool used to quickly change request and response headers.",
@@ -1484,7 +1493,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 159,
     "title": "Mozilla Observatory",
     "url": "https://observatory.mozilla.org/",
     "description": "The Mozilla Observatory has helped over 240,000 websites by teaching developers, system administrators, and security professionals how to configure their sites safely and securely.",
