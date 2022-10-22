@@ -1500,5 +1500,12 @@
     "logo": "mozilla-observatory.png",
     "alt": "The Mozilla observatory wordmark",
     "tag": ["security", "security assessment", "mozilla observatory"]
+  },
+  {
+    "id": 160,
+    "title": "JSON Crack",
+    "url": "https://jsoncrack.com/",
+    "description": "Seamlessly visualize your JSON data instantly into graphs.",
+    "tag": ["json", "graphs", "data", "visualization"]
   }
 ]
