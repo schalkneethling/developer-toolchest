@@ -1500,5 +1500,14 @@
     "logo": "mozilla-observatory.png",
     "alt": "The Mozilla observatory wordmark",
     "tag": ["security", "security assessment", "mozilla observatory"]
+  },
+  {
+    "id": 160,
+    "title": "Vite",
+    "url": "https://vitejs.dev/",
+    "description": "Next generation frontend tooling. Use it to build your next Javascript project. It also has a dev server that has fast hot module replacement.",
+    "logo": "vite-logo.png",
+    "alt": "",
+    "tag": ["tools", "devtools", "javascript", "tool"]
   }
 ]
