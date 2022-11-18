@@ -1509,5 +1509,14 @@
     "logo": "vite-logo.png",
     "alt": "",
     "tag": ["tools", "devtools", "javascript", "tool"]
+  },
+  {
+    "id": 161,
+    "title": "Feather",
+    "url": "https://feathericons.com/",
+    "description": "Simply beautiful open source icons",
+    "logo": "feather-logo.png",
+    "alt": "",
+    "tag": ["fonts", "typography", "icon", "icons", "iconography"]
   }
 ]
