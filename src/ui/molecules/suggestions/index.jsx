@@ -7,7 +7,7 @@ export const Suggestions = ({ tools }) => {
   flattenedTags.forEach((tag) => suggestionsSet.add(tag));
 
   return (
-    <datalist id="suggestions">
+    <datalist data-testid="suggestions-datalist" id="suggestions">
       {Array.from(suggestionsSet).map((suggestion) => {
         return <option key={suggestion} value={suggestion} />;
       })}
