@@ -1,6 +1,7 @@
 import * as React from "react";
 import { createSearchParams, useSearchParams } from "react-router-dom";
 import { App } from "insights-js";
+import { Document } from "flexsearch";
 
 import { Footer } from "./ui/molecules/footer";
 import { Logo } from "./ui/atoms/logo";
@@ -9,10 +10,12 @@ import { SearchResults } from "./ui/molecules/search-results";
 
 import "./App.css";
 
-function DeveloperToolchest({ index, tools }) {
+function DeveloperToolchest() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchResults, setSearchResults] = React.useState([]);
   const [searchString, setSearchString] = React.useState("");
+  const [tools, setTools] = React.useState(null);
+  const [toolsIndex, setToolsIndex] = React.useState(null);
 
   let insights;
 
@@ -28,7 +31,7 @@ function DeveloperToolchest({ index, tools }) {
     setSearchString(query);
     setSearchParams(createSearchParams({ q: query }));
 
-    const resultSet = index.search({
+    const resultSet = toolsIndex.search({
       tag: searchString.split(" "),
       bool: "or",
     });
@@ -44,11 +47,43 @@ function DeveloperToolchest({ index, tools }) {
   }
 
   React.useEffect(() => {
+    const jsonURL = process.env.REACT_APP_TESTING
+      ? "/tools-test.json"
+      : "/tools.json";
+    async function fetchData() {
+      const response = await fetch(jsonURL);
+      const tools = await response.json();
+
+      setTools(tools);
+
+      const index = new Document({
+        document: {
+          id: "id",
+          tag: "tag",
+          index: [{ field: "title", tokenize: "forward" }],
+        },
+      });
+
+      tools.forEach(({ id, title, tag }) => {
+        index.add({
+          id,
+          tag,
+          title,
+        });
+      });
+
+      setToolsIndex(index);
+    }
+
+    fetchData();
+  }, []);
+
+  React.useEffect(() => {
     const searchState = searchParams.get("q");
 
-    if (searchState) {
+    if (searchState && toolsIndex) {
       setSearchString(searchState);
-      const resultSet = index.search({
+      const resultSet = toolsIndex.search({
         tag: searchState.split(" "),
         bool: "or",
       });
@@ -58,7 +93,7 @@ function DeveloperToolchest({ index, tools }) {
         setSearchResults(matches);
       }
     }
-  }, [index, searchParams, tools]);
+  }, [toolsIndex, searchParams, tools]);
 
   return (
     <div className="page-container">

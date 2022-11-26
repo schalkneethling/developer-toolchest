@@ -1,37 +1,20 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Document } from "flexsearch";
-import tools from "./data/tools.json";
 
 import DeveloperToolchest from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 
-const index = new Document({
-  document: {
-    id: "id",
-    tag: "tag",
-    index: [{ field: "title", tokenize: "forward" }],
-  },
-});
+const root = createRoot(document.getElementById("root"));
 
-tools.forEach(({ id, title, tag }) => {
-  index.add({
-    id,
-    tag,
-    title,
-  });
-});
-
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <Router>
-      <DeveloperToolchest index={index} tools={tools} />
+      <DeveloperToolchest />
     </Router>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

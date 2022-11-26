@@ -38,7 +38,7 @@ export const Search = ({
           list="suggestions"
           onChange={handleChange}
         />
-        <Suggestions tools={tools} />
+        {tools && <Suggestions tools={tools} />}
         <button type="submit">Search</button>
       </form>
     </>
