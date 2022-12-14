@@ -1,0 +1,16 @@
+.article-card {
+  border-radius: var(--default-border-radius);
+  box-shadow: var(--card-box-shadow);
+  height: 100%;
+  margin-bottom: var(--padding-base);
+  padding: var(--padding-base);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: initial;
+  }
+}
