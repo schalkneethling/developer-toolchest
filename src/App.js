@@ -3,6 +3,7 @@ import { createSearchParams, useSearchParams } from "react-router-dom";
 import { App } from "insights-js";
 import { Document } from "flexsearch";
 
+import { FeaturedArticles } from "./ui/molecules/featured-articles";
 import { Footer } from "./ui/molecules/footer";
 import { Logo } from "./ui/atoms/logo";
 import { Search } from "./ui/molecules/search";
@@ -105,9 +106,10 @@ function DeveloperToolchest() {
           searchString={searchString}
           tools={tools}
         />
-        {searchResults && (
+        {searchResults.length > 0 && (
           <SearchResults results={searchResults} onSubmitCallback={doSearch} />
         )}
+        <FeaturedArticles />
       </div>
       <Footer />
     </div>

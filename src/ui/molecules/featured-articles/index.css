@@ -1,0 +1,40 @@
+.featured-articles {
+  margin-bottom: var(--padding-small-medium);
+}
+
+.featured-articles-heading {
+  /**
+     * This is a CSS gradient that will be applied to the text.
+     * The gradient starts with the primary color and reaches the
+     * midpoint at 20%. It then takes the rest of the remaining 80%
+     * to transition to the secondary gradient color.
+     */
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary),
+    20%,
+    var(--color-text-gradient-secondary)
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 1.75rem;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .featured-articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding-small-medium);
+    justify-content: space-between;
+  }
+
+  .featured-articles-list li {
+    flex: 1 1 45%;
+  }
+}
+
+@media screen and (min-width: 63.9375em) {
+  .featured-articles-list li {
+    flex: 1 1 30%;
+  }
+}

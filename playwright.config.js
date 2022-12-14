@@ -105,7 +105,6 @@ const config = {
       REACT_APP_TESTING: "true",
     },
     port: 3000,
-    reuseExistingServer: !process.env.CI,
   },
 };
 
