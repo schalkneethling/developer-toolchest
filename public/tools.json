@@ -1518,5 +1518,14 @@
     "logo": "feather-logo.png",
     "alt": "",
     "tag": ["fonts", "typography", "icon", "icons", "iconography"]
+  },
+  {
+    "id": 162,
+    "title": "Open Peeps",
+    "url": "https://openpeeps.com/",
+    "description": "Hand-drawn illustrations of people of the world. Can you recreate yourself?",
+    "logo": "openpeeps.png",
+    "alt": "",
+    "tag": ["design assets", "design", "avatar", "illustrations"]
   }
 ]
