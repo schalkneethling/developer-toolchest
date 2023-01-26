@@ -6,5 +6,19 @@
     "description": "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
     "logo": "codepen.png",
     "tag": ["codepen", "repl", "editor"]
+  },
+  {
+    "id": 1,
+    "title": "Glitch.me",
+    "url": "https://glitch.me/",
+    "description": "Create your next web project in your browser with no setup and we'll instantly deploy it.",
+    "logo": "glitch.png",
+    "tag": [
+      "repl",
+      "editor",
+      "sandbox",
+      "developer platform",
+      "development platform"
+    ]
   }
 ]
