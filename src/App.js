@@ -59,18 +59,12 @@ function DeveloperToolchest() {
 
       const index = new Document({
         document: {
-          id: "id",
-          tag: "tag",
-          index: [{ field: "title", tokenize: "forward" }],
+          index: ["tag", { field: "title", tokenize: "forward" }],
         },
       });
 
-      tools.forEach(({ id, title, tag }) => {
-        index.add({
-          id,
-          tag,
-          title,
-        });
+      tools.forEach((tool) => {
+        index.add(tool);
       });
 
       setToolsIndex(index);
@@ -84,14 +78,26 @@ function DeveloperToolchest() {
 
     if (searchState && toolsIndex) {
       setSearchString(searchState);
-      const resultSet = toolsIndex.search({
-        tag: searchState.split(" "),
-        bool: "or",
-      });
+      const resultSet = toolsIndex.search(searchState);
 
-      if (resultSet[0]) {
-        const matches = resultSet[0].result.map((index) => tools[index]);
-        setSearchResults(matches);
+      // when you have multiple indexes (`index: ["tag", "title"]`),
+      // your result set can look something like this:
+      // [
+      //   { field: 'tag', result: [ 2, 3 ] },
+      //   { field: 'title', result: [ 2 ] }
+      // ]
+      // We first create a flat array with all the matched ids called `allMatches`.
+      // We initialize a new Set passing `allMatches` to remove duplicates. We can
+      // now use our Set, to get the matched results from our data.
+      const allMatches = resultSet.flatMap(({ result }) => result);
+      const uniqueMatches = new Set(allMatches);
+
+      if (uniqueMatches.size > 0) {
+        setSearchResults(
+          Array.from(uniqueMatches).map((result) =>
+            tools.find((item) => item.id === result)
+          )
+        );
       }
     }
   }, [toolsIndex, searchParams, tools]);

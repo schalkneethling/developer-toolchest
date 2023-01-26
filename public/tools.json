@@ -5,7 +5,7 @@
     "url": "https://codepen.io/",
     "description": "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
     "logo": "codepen.png",
-    "tag": ["codepen", "repl", "editor"]
+    "tag": ["repl", "editor"]
   },
   {
     "id": 1,
@@ -14,8 +14,6 @@
     "description": "Create your next web project in your browser with no setup and we'll instantly deploy it.",
     "logo": "glitch.png",
     "tag": [
-      "glitch",
-      "glitch.me",
       "repl",
       "editor",
       "sandbox",
@@ -29,7 +27,7 @@
     "url": "https://jsfiddle.net/",
     "description": "JSFiddle is an online IDE which is designed to allow users to edit and run HTML, JavaScript, and CSS code on a single page. Its interface is minimalist and split into four main frames, which correspond to editable HTML, JavaScript and CSS fields and a result field which displays the user's project after it is run.",
     "logo": "jsfiddle.png",
-    "tag": ["jsfiddle", "repl", "editor"]
+    "tag": ["repl", "editor"]
   },
   {
     "id": 3,
@@ -85,14 +83,14 @@
     "url": "https://www.modularscale.com/",
     "description": "First introduced at Build 2010 by Tim Brown, this site was built as a tool to help web designers size their type in a more meaningful way. The site re-launched at AEA Atlanta 2015 through a collaboration between Tim Brown and Scott Kellum.",
     "logo": "modularscale.png",
-    "tag": ["fonts", "typography", "utility", "type scale", "type-scale"]
+    "tag": ["fonts", "typography", "utility", "type scale"]
   },
   {
     "id": 9,
     "title": "Type-Scale",
     "url": "https://type-scale.com/",
     "description": "A Visual Type Scale Calculator",
-    "tag": ["fonts", "typography", "utility", "type scale", "type-scale"]
+    "tag": ["fonts", "typography", "utility", "type scale"]
   },
   {
     "id": 10,
@@ -223,7 +221,7 @@
     "url": "https://prettier.io/playground/",
     "description": "Prettier is an opinionated code formatter, that supports many languages, integrates with most editors, and has few options. Try it online!",
     "logo": "prettier.png",
-    "tag": ["prettier", "repl", "playground", "editor", "formatter", "utility"]
+    "tag": ["repl", "playground", "editor", "formatter", "utility"]
   },
   {
     "id": 22,
@@ -502,22 +500,14 @@
     "title": "Hero Generator",
     "url": "https://hero-generator.netlify.app/",
     "description": "I've had to implement the same hero for several years now, so like a good lazy programmer, I figured I'd automate it. This generator is intended to get you going, it doesn't provide every value but the code output should give you a nice jumping off point :)",
-    "tag": [
-      "design",
-      "html",
-      "css",
-      "tool",
-      "generator",
-      "hero generator",
-      "automation"
-    ]
+    "tag": ["design", "html", "css", "tool", "generator", "automation"]
   },
   {
     "id": 58,
     "title": "Fig",
     "url": "https://fig.io/",
     "description": "Your terminal, reimagined. Fig adds VSCode-style autocomplete to your existing terminal. Move faster with Fig.",
-    "tag": ["terminal", "utility", "macos", "fig"]
+    "tag": ["terminal", "utility", "macos"]
   },
   {
     "id": 59,
@@ -538,28 +528,28 @@
     "title": "Hugo",
     "url": "https://gohugo.io/",
     "description": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.",
-    "tag": ["ssg", "static site generator", "hugo", "go-lang"]
+    "tag": ["ssg", "static site generator", "go-lang"]
   },
   {
     "id": 61,
     "title": "11ty",
     "url": "https://www.11ty.dev/",
     "description": "Eleventy, a simpler static site generator.",
-    "tag": ["ssg", "static site generator", "11ty", "nodejs", "node"]
+    "tag": ["ssg", "static site generator", "nodejs", "node"]
   },
   {
     "id": 62,
     "title": "Gatsby",
     "url": "https://www.gatsbyjs.com/",
     "description": "Generate it statically. Generate it dynamically. Or, somewhere in between.",
-    "tag": ["ssg", "static site generator", "gatsby", "reactjs", "react"]
+    "tag": ["ssg", "static site generator", "reactjs", "react"]
   },
   {
     "id": 63,
     "title": "VuePress",
     "url": "https://vuepress.vuejs.org/",
     "description": "Vue-powered Static Site Generator.",
-    "tag": ["ssg", "static site generator", "vuepress", "vuejs", "vue"]
+    "tag": ["ssg", "static site generator", "vuejs", "vue"]
   },
   {
     "id": 64,
@@ -573,34 +563,21 @@
     "title": "Workbox",
     "url": "https://developers.google.com/web/tools/workbox/",
     "description": "Workbox is a set of libraries that can power a production-ready service worker for your Progressive Web App.",
-    "tag": [
-      "pwa",
-      "progressive web apps",
-      "library",
-      "service worker",
-      "workbox"
-    ]
+    "tag": ["pwa", "progressive web apps", "library", "service worker"]
   },
   {
     "id": 66,
     "title": "PWACompat",
     "url": "https://github.com/GoogleChromeLabs/pwacompat",
     "description": "PWACompat to bring Web App Manifest to older browsers",
-    "tag": ["pwa", "progressive web apps", "library", "manifest", "pwacompat"]
+    "tag": ["pwa", "progressive web apps", "library", "manifest"]
   },
   {
     "id": 67,
     "title": "pwa-asset-generator",
     "url": "https://github.com/onderceylan/pwa-asset-generator",
     "description": "Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.",
-    "tag": [
-      "pwa",
-      "progressive web apps",
-      "library",
-      "pwa-asset-generator",
-      "manifest",
-      "automation"
-    ]
+    "tag": ["pwa", "progressive web apps", "library", "manifest", "automation"]
   },
   {
     "id": 68,
@@ -620,14 +597,7 @@
     "title": "appmanifest",
     "url": "https://github.com/tomitm/appmanifest",
     "description": "Web App Manifest Generator.",
-    "tag": [
-      "pwa",
-      "progressive web apps",
-      "utility",
-      "manifest",
-      "appmanifest",
-      "automation"
-    ]
+    "tag": ["pwa", "progressive web apps", "utility", "manifest", "automation"]
   },
   {
     "id": 70,
@@ -664,30 +634,14 @@
     "title": "Axe",
     "url": "https://www.deque.com/axe/",
     "description": "Built on the world’s most popular accessibility testing library, axe-core. Deque’s suite of axe tools offers full coverage for your testing and compliance needs.",
-    "tag": [
-      "a11y",
-      "accessibility",
-      "utility",
-      "tools",
-      "audits",
-      "axe",
-      "testing"
-    ]
+    "tag": ["a11y", "accessibility", "utility", "tools", "audits", "testing"]
   },
   {
     "id": 73,
     "title": "Wave",
     "url": "https://wave.webaim.org/",
     "description": "WAVE® is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities. WAVE can identify many accessibility and Web Content Accessibility Guideline (WCAG) errors, but also facilitates human evaluation of web content.",
-    "tag": [
-      "a11y",
-      "accessibility",
-      "utility",
-      "tools",
-      "audits",
-      "wave",
-      "testing"
-    ]
+    "tag": ["a11y", "accessibility", "utility", "tools", "audits", "testing"]
   },
   {
     "id": 74,
@@ -701,7 +655,7 @@
     "title": "A modern CSS reset",
     "url": "https://piccalil.li/blog/a-modern-css-reset/",
     "description": "A reset of sensible defaults",
-    "tag": ["css", "css reset", "css-reset", "utility"]
+    "tag": ["css", "css reset", "utility"]
   },
   {
     "id": 76,
@@ -737,43 +691,28 @@
     "title": "chroma-js",
     "url": "https://vis4.net/chromajs/",
     "description": "chroma.js is a small-ish zero-dependency JavaScript library (13.5kB) for all kinds of color conversions and color scales.",
-    "tag": [
-      "javascript",
-      "chroma",
-      "chromajs",
-      "color",
-      "colour",
-      "tools",
-      "library"
-    ]
+    "tag": ["javascript", "chroma", "color", "colour", "tools", "library"]
   },
   {
     "id": 80,
     "title": "Firebase",
     "url": "https://firebase.google.com/",
     "description": "Firebase is Google’s mobile platform that helps you quickly develop high-quality apps and grow your business.",
-    "tag": ["database", "firebase", "cloud", "cloud tools", "google"]
+    "tag": ["database", "cloud", "cloud tools", "google"]
   },
   {
     "id": 81,
     "title": "Supabase",
     "url": "https://supabase.com/",
     "description": "The Open SourceFirebase Alternative. Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.",
-    "tag": [
-      "database",
-      "supabase",
-      "cloud",
-      "cloud tools",
-      "authentication",
-      "storage"
-    ]
+    "tag": ["database", "cloud", "cloud tools", "authentication", "storage"]
   },
   {
     "id": 82,
     "title": "Hasura",
     "url": "https://hasura.io/",
     "description": "Instant GraphQL on all your data.",
-    "tag": ["database", "graphql", "cloud", "cloud tools", "hasura"]
+    "tag": ["database", "graphql", "cloud", "cloud tools"]
   },
   {
     "id": 83,
@@ -785,8 +724,7 @@
       "transactional database",
       "graphql",
       "cloud",
-      "cloud tools",
-      "fauna"
+      "cloud tools"
     ]
   },
   {
@@ -794,35 +732,28 @@
     "title": "PostgreSQL",
     "url": "https://www.postgresql.org/",
     "description": "The World’s Most Advanced Open Source Relational Database.",
-    "tag": ["database", "relational database", "postgresql", "postgres", "sql"]
+    "tag": ["database", "relational database", "sql"]
   },
   {
     "id": 85,
     "title": "MariaDB",
     "url": "https://mariadb.org/",
     "description": "MariaDB Server is one of the most popular open source relational databases. It’s made by the original developers of MySQL and guaranteed to stay open source. It is part of most cloud offerings and the default in most Linux distributions.",
-    "tag": ["database", "relational database", "mariadb", "sql"]
+    "tag": ["database", "relational database", "sql"]
   },
   {
     "id": 86,
     "title": "MongoDB",
     "url": "https://www.mongodb.com/",
     "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
-    "tag": [
-      "database",
-      "mongodb",
-      "nosql",
-      "cloud",
-      "cloud platform",
-      "nosql database"
-    ]
+    "tag": ["database", "nosql", "cloud", "cloud platform"]
   },
   {
     "id": 87,
     "title": "SQLite",
     "url": "https://sqlite.org/index.html",
     "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
-    "tag": ["database", "sqllite", "sql"]
+    "tag": ["database", "sql"]
   },
   {
     "id": 88,
@@ -836,7 +767,7 @@
     "title": "Node Tap",
     "url": "https://node-tap.org/",
     "description": "A Test-Anything-Protocol library for JavaScript",
-    "tag": ["utilities", "testing", "javascript", "node", "node tap", "nodejs"]
+    "tag": ["utilities", "testing", "javascript", "node", "nodejs"]
   },
   {
     "id": 90,
@@ -857,14 +788,14 @@
     "title": "Title Generator",
     "url": "https://tweakyourbiz.com/title-generator",
     "description": "Generate great titles for articles and blog posts",
-    "tag": ["writing", "seo", "titles", "title generator"]
+    "tag": ["writing", "seo", "titles"]
   },
   {
     "id": 93,
     "title": "Power Thesaurus",
     "url": "https://www.powerthesaurus.org/",
     "description": "Power Thesaurus is a fast, convenient, community driven, comprehensive online thesaurus",
-    "tag": ["writing", "thesaurus", "power thesaurus"]
+    "tag": ["writing", "thesaurus"]
   },
   {
     "id": 94,
@@ -1259,8 +1190,7 @@
       "json utility",
       "online",
       "query",
-      "query language",
-      "groq"
+      "query language"
     ]
   },
   {
@@ -1268,21 +1198,14 @@
     "title": "Resize IMAGE",
     "url": "https://www.iloveimg.com/resize-image",
     "description": "Resize JPG, PNG, SVG or GIF by defining new height and width pixels. Change image dimensions in bulk.",
-    "tag": [
-      "image",
-      "image utility",
-      "utility",
-      "online",
-      "resize",
-      "image editing"
-    ]
+    "tag": ["image", "image utility", "utility", "online", "image editing"]
   },
   {
     "id": 135,
     "title": "JSON Hero",
     "url": "https://jsonhero.io/",
     "description": "JSON Hero makes reading and understand JSON files easy by giving you a clean and beautiful UI packed with extra features.",
-    "tag": ["json", "json hero", "json utility", "utility", "online"]
+    "tag": ["json", "json utility", "utility", "online"]
   },
   {
     "id": 136,
@@ -1325,28 +1248,28 @@
     "title": "Replit",
     "url": "https://replit.com/",
     "description": "The collaborative browser based IDE.",
-    "tag": ["repl", "editor", "IDE", "Collaboration", "Web hosting service"]
+    "tag": ["repl", "editor", "ide", "collaboration"]
   },
   {
     "id": 142,
     "title": "Postman",
     "url": "https://www.postman.com/",
     "description": "An API platform for building and using APIs.",
-    "tag": ["API", "editor", "devtools", "web", "testing"]
+    "tag": ["api", "editor", "devtools", "web", "testing"]
   },
   {
     "id": 143,
     "title": "RapidAPI",
     "url": "https://rapidapi.com/",
     "description": "The Next-Generation API Platform.",
-    "tag": ["API", "devtools", "web", "testing"]
+    "tag": ["api", "devtools", "web", "testing"]
   },
   {
     "id": 144,
     "title": "Streamlit",
     "url": "https://streamlit.io/",
     "description": "A faster way to build and share data apps.",
-    "tag": ["Python", "framework", "web"]
+    "tag": ["python", "framework", "web"]
   },
   {
     "id": 145,
@@ -1361,7 +1284,7 @@
     "title": "Pngegg",
     "url": "https://www.pngegg.com/",
     "description": "A great place to find a wide variety of images you would desire for your designs.",
-    "logo": "Pngegg.png",
+    "logo": "pngegg.png",
     "tag": ["design assets", "design", "image"]
   },
   {
@@ -1499,7 +1422,7 @@
     "description": "The Mozilla Observatory has helped over 240,000 websites by teaching developers, system administrators, and security professionals how to configure their sites safely and securely.",
     "logo": "mozilla-observatory.png",
     "alt": "The Mozilla observatory wordmark",
-    "tag": ["security", "security assessment", "mozilla observatory"]
+    "tag": ["security", "security assessment"]
   },
   {
     "id": 160,
