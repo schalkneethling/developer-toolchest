@@ -1441,5 +1441,14 @@
     "logo": "feather-logo.png",
     "alt": "",
     "tag": ["fonts", "typography", "icon", "icons", "iconography"]
+  },
+  {
+    "id": 162,
+    "title": "JSON Link",
+    "url": "https://json.link/",
+    "description": "The editor supports Hjson syntax, which makes writing JSON less painful. The compiled JSON can be used in your app using the provided URL.",
+    "logo": "json-link.svg",
+    "alt": "JSON.link in curly braces",
+    "tag": ["json.link", "json", "utility", "tool", "hjson"]
   }
 ]
