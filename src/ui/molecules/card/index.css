@@ -13,3 +13,23 @@
 .card h2 {
   margin: 0;
 }
+
+.card .GitHub::before {
+  background: url("../../../assets/github-mark.svg");    
+  content: '';
+  display: inline-block;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;  
+ }
+
+.card .GitLab:before {
+  background: url("../../../assets/gitlab-logo-600.svg");    
+  content: '';
+  display: inline-block;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;  
+}
