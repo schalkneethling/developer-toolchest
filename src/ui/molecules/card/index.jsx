@@ -23,8 +23,12 @@ export const Card = ({ result, children }) => {
         <a href={url}>{title}</a>
       </h2>
       {repo && (
-        <a href={repo} className={getHost()}>
-          Contribute to {title} on {getHost()}
+        <a
+          href={repo}
+          title={`Contribute to ${title} on ${getHost()}`}
+          className={getHost()}
+        >
+          Contribute on {getHost()}
         </a>
       )}
       {description && <p>{description}</p>}
