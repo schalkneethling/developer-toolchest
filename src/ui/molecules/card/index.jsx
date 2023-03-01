@@ -26,7 +26,7 @@ export const Card = ({ result, children }) => {
         <a
           href={repo}
           title={`Contribute to ${title} on ${getHost()}`}
-          className={getHost()}
+          className={getHost().toLowerCase()}
         >
           Contribute on {getHost()}
         </a>
