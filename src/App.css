@@ -6,14 +6,25 @@
 
 :root {
   --color-primary: #01918b;
+
+  --color-green-500: #01918b;
+  --color-green-900: #00211f;
+
+  --color-red-500: #ee5668;
+
   --color-neutral-100: #fff;
+  --color-neutral-200: #ebebeb;
   --color-neutral-500: #9cafb7;
   --color-neutral-800: #2d292f;
   --color-neutral-900: #0c0b0b;
+  --color-neutral-inverted: #fff;
+
   --color-text-gradient-secondary: #12214d;
 
   --card-box-shadow: 0 1px 7px 0 rgb(0 0 0 / 10%), 0 1px 6px 0 rgb(0 0 0 / 6%);
-  --default-border-radius: 6px;
+  --card-sponsor-box-shadow: 0 1px 7px 0 rgb(238 86 104 / 10%),
+    0 1px 6px 0 rgb(238 86 104 / 6%);
+  --default-border-radius: 0.5rem;
 
   --max-width: 1100px;
 
