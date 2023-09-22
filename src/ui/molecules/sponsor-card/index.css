@@ -1,0 +1,49 @@
+.sponsor-card {
+  border: 2px solid var(--color-red-500);
+  border-radius: var(--default-border-radius);
+  box-shadow: var(--card-sponsor-box-shadow);
+  height: 100%;
+  margin-bottom: var(--padding-base);
+  padding: var(--padding-base);
+}
+
+.sponsor-card h4 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.sponsor-link:link,
+.sponsor-link:visited {
+  background-color: var(--color-neutral-200);
+  border-radius: var(--default-border-radius);
+  color: var(--color-green-900);
+  display: flex;
+  gap: var(--padding-small);
+  justify-content: center;
+  padding: var(--padding-button);
+  text-decoration: none;
+}
+.sponsor-link:hover,
+.sponsor-link:focus {
+  background-color: var(--color-green-900);
+  color: var(--color-neutral-inverted);
+}
+
+.sponsor-link::before {
+  background-color: var(--color-red-500);
+  content: "";
+  display: inline-block;
+  height: 1.5rem;
+  mask-image: url("../../../assets/balloon-heart-fill.svg");
+  mask-size: cover;
+  width: 1.5rem;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .sponsor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: initial;
+  }
+}
