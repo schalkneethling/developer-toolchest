@@ -1624,5 +1624,14 @@
     "alt": "JSON.link in curly braces",
     "tag": ["json.link", "json", "utility", "tool", "hjson"],
     "repo": ""
+  },
+  {
+    "id": 163,
+    "title": "Open Peeps",
+    "url": "https://openpeeps.com/",
+    "description": "Hand-drawn illustrations of people of the world. Can you recreate yourself?",
+    "alt": "",
+    "tag": ["design assets", "design", "avatar", "illustrations"],
+    "repo": ""
   }
 ]
