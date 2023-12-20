@@ -5,13 +5,13 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
     "flexsearch": "^0.7.31",
     "insights-js": "^1.2.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.18.0",
+    "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^3.5.0"
   },
@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@playwright/test": "^1.39.0",
+    "@playwright/test": "^1.40.1",
     "@wixc3/react-board": "^2.3.0",
     "husky": "^8.0.3"
   }
