@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createSearchParams, useSearchParams } from "react-router-dom";
 import { App } from "insights-js";
-import { Document } from "flexsearch";
+import Document from "flexsearch";
 
 import { FeaturedArticles } from "./ui/molecules/featured";
 import { Footer } from "./ui/molecules/footer";
