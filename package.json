@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.1",
+    "@playwright/test": "^1.41.1",
     "@wixc3/react-board": "^2.4.0",
     "husky": "^8.0.3"
   }
