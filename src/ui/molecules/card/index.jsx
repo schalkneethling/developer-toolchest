@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import "./index.css";
 
 export const Card = ({ result, children }) => {
@@ -12,7 +14,7 @@ export const Card = ({ result, children }) => {
     <li className="card" data-testid="card-component">
       {logo && (
         <img
-          src={`${process.env.PUBLIC_URL}/logos/${logo}`}
+          src={`/logos/${logo}`}
           height="150"
           width="250"
           alt={alt || ""}
@@ -35,4 +37,9 @@ export const Card = ({ result, children }) => {
       {children}
     </li>
   );
+};
+
+Card.propTypes = {
+  result: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
 };

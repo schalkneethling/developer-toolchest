@@ -1,10 +1,9 @@
-/* eslint-disable testing-library/prefer-screen-queries */
 // @ts-check
-const { test, expect } = require("@playwright/test");
+import { test, expect } from "@playwright/test";
 
 test.describe("test search results", () => {
   test("searching for repl should return a single result", async ({ page }) => {
-    await page.goto("http://localhost:3000/");
+    await page.goto("http://localhost:5173/");
 
     const searchInput = page.getByLabel("Enter tags separated by spaces");
     const searchButton = page.getByRole("button", { name: /Search/ });
@@ -25,7 +24,7 @@ test.describe("test search results", () => {
   test("searching for glitch should return a single result", async ({
     page,
   }) => {
-    await page.goto("http://localhost:3000/");
+    await page.goto("http://localhost:5173/");
 
     const searchInput = page.getByLabel("Enter tags separated by spaces");
     const searchButton = page.getByRole("button", { name: /Search/ });

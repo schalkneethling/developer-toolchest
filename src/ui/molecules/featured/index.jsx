@@ -1,24 +1,9 @@
-import { init, track } from "insights-js";
-
 import { ArticleCard } from "../article-card";
 import { SponsorCard } from "../sponsor-card";
 
 import "./index.css";
 
 export const FeaturedArticles = () => {
-  init(process.env.REACT_APP_INSIGHTS_ID);
-
-  function trackArticleClicks({ title, destination }) {
-    track({
-      event: "click",
-      id: "featured-article",
-      parameters: {
-        destination,
-        title,
-      },
-    });
-  }
-
   return (
     <aside className="featured-articles">
       <h3 className="featured-articles-heading">Featured content</h3>
@@ -35,15 +20,7 @@ export const FeaturedArticles = () => {
                 the environment.
               </p>
             </div>
-            <a
-              href="https://abookapart.com/products/sustainable-web-design"
-              onClick={() =>
-                trackArticleClicks({
-                  title: "Sustainable Web Design",
-                  destination: "https://abookapart.com/",
-                })
-              }
-            >
+            <a href="https://abookapart.com/products/sustainable-web-design">
               Read more
             </a>
           </ArticleCard>
@@ -65,16 +42,7 @@ export const FeaturedArticles = () => {
                 .
               </p>
             </div>
-            <a
-              className="sponsor-link"
-              href="https://github.com/sponsors/hzoo"
-              onClick={() =>
-                trackArticleClicks({
-                  title: "Support Henry Zhu",
-                  destination: "https://github.com",
-                })
-              }
-            >
+            <a className="sponsor-link" href="https://github.com/sponsors/hzoo">
               Support
             </a>
           </SponsorCard>
@@ -92,16 +60,7 @@ export const FeaturedArticles = () => {
                 need a powerful computer to get started.
               </p>
             </div>
-            <a
-              href="https://github.blog/2023-02-22-a-beginners-guide-to-learning-to-code-with-github-codespaces/"
-              onClick={() =>
-                trackArticleClicks({
-                  title:
-                    "A beginner’s guide to learning to code with GitHub Codespaces",
-                  destination: "https://github.blog/",
-                })
-              }
-            >
+            <a href="https://github.blog/2023-02-22-a-beginners-guide-to-learning-to-code-with-github-codespaces/">
               Read more
             </a>
           </ArticleCard>
