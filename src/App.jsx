@@ -1,7 +1,6 @@
 import * as React from "react";
 import { createSearchParams, useSearchParams } from "react-router-dom";
-import { App } from "insights-js";
-import { Document } from "flexsearch";
+import Document from "flexsearch/dist/module/document";
 
 import { FeaturedArticles } from "./ui/molecules/featured";
 import { Footer } from "./ui/molecules/footer";
@@ -17,14 +16,6 @@ function DeveloperToolchest() {
   const [searchString, setSearchString] = React.useState("");
   const [tools, setTools] = React.useState(null);
   const [toolsIndex, setToolsIndex] = React.useState(null);
-
-  let insights;
-
-  // insights.io page tracking
-  if (process.env.REACT_APP_INSIGHTS_ID) {
-    insights = new App(process.env.REACT_APP_INSIGHTS_ID);
-    insights.trackPages();
-  }
 
   function doSearch(query, event) {
     event && event.preventDefault();
@@ -48,9 +39,9 @@ function DeveloperToolchest() {
   }
 
   React.useEffect(() => {
-    const jsonURL = process.env.REACT_APP_TESTING
-      ? "/tools-test.json"
-      : "/tools.json";
+    const jsonURL =
+      import.meta.env.MODE === "testing" ? "/tools-test.json" : "/tools.json";
+
     async function fetchData() {
       const response = await fetch(jsonURL);
       const tools = await response.json();

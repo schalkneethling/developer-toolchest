@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import { Card } from "../card";
 import { Tags } from "../tags";
 
@@ -15,4 +17,9 @@ export const SearchResults = ({ results, onSubmitCallback }) => {
       })}
     </ul>
   );
+};
+
+SearchResults.propTypes = {
+  results: PropTypes.array.isRequired,
+  onSubmitCallback: PropTypes.func.isRequired,
 };

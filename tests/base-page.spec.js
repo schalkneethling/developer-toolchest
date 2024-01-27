@@ -1,11 +1,10 @@
-/* eslint-disable testing-library/prefer-screen-queries */
 // @ts-check
-const { test, expect } = require("@playwright/test");
+import { test, expect } from "@playwright/test";
 
 test("homepage has expected title search input and button", async ({
   page,
 }) => {
-  await page.goto("http://localhost:3000/");
+  await page.goto("http://localhost:5173/");
 
   await expect(page).toHaveTitle(/all your tools in one place/);
 
