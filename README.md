@@ -4,8 +4,6 @@ All your tools in one place.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4dfb254f-61fb-449f-9583-4e19774de6e9/deploy-status)](https://app.netlify.com/sites/romantic-chandrasekhar-499964/deploys)
 
-> NOTE: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Tools
 
 All tools are listed in `public/tools.json`. To add a tool:
