@@ -1633,5 +1633,15 @@
     "alt": "",
     "tag": ["design assets", "design", "avatar", "illustrations"],
     "repo": ""
+  },
+  {
+    "id": 164,
+    "title": "Who Can Use",
+    "url": "https://www.whocanuse.com/",
+    "description": "WhoCanUse is a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
+    "logo": "whocanuse.png",
+    "alt": "",
+    "tag": ["a11y", "accessibility", "color contrast"],
+    "repo": "https://github.com/coreyginnivan/whocanuse/"
   }
 ]
