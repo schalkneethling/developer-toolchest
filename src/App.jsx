@@ -23,14 +23,13 @@ function DeveloperToolchest() {
     setSearchString(query);
     setSearchParams(createSearchParams({ q: query }));
 
-    const resultSet = toolsIndex.search({
-      tag: searchString.split(" "),
-      bool: "or",
-    });
+    const resultSet = toolsIndex.search(searchString);
 
     if (resultSet[0]) {
       const matches = resultSet[0].result.map((index) => tools[index]);
       setSearchResults(matches);
+    } else {
+      setSearchResults([]);
     }
   }
 
@@ -103,8 +102,23 @@ function DeveloperToolchest() {
           searchString={searchString}
           tools={tools}
         />
+
         {searchResults.length > 0 && (
           <SearchResults results={searchResults} onSubmitCallback={doSearch} />
+        )}
+
+        {searchString && !searchResults.length && (
+          <p>
+            No tools found for your query.{" "}
+            <a
+              href="https://github.com/schalkneethling/developer-toolchest"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Something missing? Open an issue
+            </a>{" "}
+            and let&apos;s fix that.
+          </p>
         )}
         <FeaturedArticles />
       </div>
