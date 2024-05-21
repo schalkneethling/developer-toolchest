@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { Suggestions } from "../suggestions";
 
 import "./index.css";
