@@ -1652,5 +1652,14 @@
     "logo": "hueplot.png",
     "alt": "Color wheel from black on the outside through a color gradient to white in the middle.",
     "tag": ["color", "colour", "color gamut", "colour gamut", "color space", "colour space"]
+  },
+  {
+    "id": 166,
+    "title": "Contrast Tools",
+    "url": "https://contrast.tools/",
+    "description": "A tool to test color contrast using either Advanced Perception of Color Algorithm (APCA) or WCAG 2.1 standards.",
+    "logo": "contrast-tools.svg",
+    "alt": "",
+    "tag": ["color", "colour", "color contrast", "colour contrast", "a11y", "accessibility", "apca", "wcag"]
   }
 ]
