@@ -1660,6 +1660,7 @@
     "description": "A tool to test color contrast using either Advanced Perception of Color Algorithm (APCA) or WCAG 2.1 standards.",
     "logo": "contrast-tools.svg",
     "alt": "",
-    "tag": ["color", "colour", "color contrast", "colour contrast", "a11y", "accessibility", "apca", "wcag"]
+    "tag": ["color", "colour", "color contrast", "colour contrast", "a11y", "accessibility", "apca", "wcag"],
+    "repo": "https://github.com/proteanstudio/contrast-tools"
   }
 ]
