@@ -1672,5 +1672,14 @@
     "alt": "",
     "tag": ["css", "clippy", "clip-path", "clip path", "clip-path maker"],
     "repo": "https://github.com/bennettfeely/Clippy"
+  },
+  {
+    "id": 168,
+    "title": "Gradient Guru",
+    "url": "http://www.gradientsguru.com/",
+    "description": "Beautiful strong and cool gradients for your design projects.",
+    "logo": "gradient-guru.svg",
+    "alt": "",
+    "tag": ["css", "gradients", "background gradients", "design", "css gradients", "generator"]
   }
 ]
