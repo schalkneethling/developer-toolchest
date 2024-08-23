@@ -1662,5 +1662,15 @@
     "alt": "",
     "tag": ["color", "colour", "color contrast", "colour contrast", "a11y", "accessibility", "apca", "wcag"],
     "repo": "https://github.com/proteanstudio/contrast-tools"
+  },
+  {
+    "id": 167,
+    "title": "Clippy",
+    "url": "https://contrast.tools/",
+    "description": "A CSS clip-path maker.",
+    "logo": "clippy.svg",
+    "alt": "",
+    "tag": ["css", "clippy", "clip-path", "clip path", "clip-path maker"],
+    "repo": "https://github.com/bennettfeely/Clippy"
   }
 ]
